@@ -21,13 +21,13 @@ This project focuses on exploring and analyzing a healthcare dataset using **SQL
 ---## 🔄 Data Preparation Workflow
 
 1. **ZIP to CSV Conversion**
-   - [your zip extraction code]
+   - 
 
 2. **Database Connection**
-   - [your database connection code]
+   - 
 
 3. **SQL Querying and Analysis**
-   - [your SQL example]
+   - 
 
    
 
