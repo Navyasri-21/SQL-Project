@@ -1,7 +1,6 @@
 create table AA_particulars_state(
      State_Name Varchar(50) NOT NULL,
      State_District_Name Varchar(50) NOT NULL,
-
      AA_Sample_Units_Total INT,
      AA_Sample_Units_Rural INT,
      AA_Sample_Units_Urban INT,
@@ -176,9 +175,1588 @@ EE_Mean_Age_At_Marriage_Female_Total INT,
 EE_Mean_Age_At_Marriage_Female_Rural INT,
 EE_Mean_Age_At_Marriage_Female_Urban INT);
 
+Create table FF_Schooling_Status_District(
+State_Name Varchar(50) NOT NULL,
+State_District_Name INT,
+FF_Children_Currently_Attending_School_Age_6_17_Years_Person_Total INT,
+FF_Children_Currently_Attending_School_Age_6_17_Years_Person_Rural INT,
+FF_Children_Currently_Attending_School_Age_6_17_Years_Person_Urban INT,
+FF_Children_Currently_Attending_School_Age_6_17_Years_Male_Total INT,
+FF_Children_Currently_Attending_School_Age_6_17_Years_Male_Rural INT,
+FF_Children_Currently_Attending_School_Age_6_17_Years_Male_Urban INT,
+FF_Children_Currently_Attending_School_Age_6_17_Years_Female_Total INT,
+FF_Children_Currently_Attending_School_Age_6_17_Years_Female_Rural INT,
+FF_Children_Currently_Attending_School_Age_6_17_Years_Female_Urban INT,
+FF_Children_Attended_Before_Drop_Out_Age_6_17_Years_Person_Total INT,
+FF_Children_Attended_Before_Drop_Out_Age_6_17_Years_Person_Rural INT,
+FF_Children_Attended_Before_Drop_Out_Age_6_17_Years_Person_Urban INT,
+FF_Children_Attended_Before_Drop_Out_Age_6_17_Years_Male_Total INT,
+FF_Children_Attended_Before_Drop_Out_Age_6_17_Years_Male_Rural INT,
+FF_Children_Attended_Before_Drop_Out_Age_6_17_Years_Male_Urban INT,
+FF_Children_Attended_Before_Drop_Out_Age_6_17_Years_Female_Total INT,
+FF_Children_Attended_Before_Drop_Out_Age_6_17_Years_Female_Rural INT,
+FF_Children_Attended_Before_Drop_Out_Age_6_17_Years_Female_Urban INT);
+
+Create Table FF_Schooling_Status_States(
+State_Name Varchar(50) NOT NULL,
+FF_Children_Currently_Attending_School_Age_6_17_Years_Person_Total INT,
+FF_Children_Currently_Attending_School_Age_6_17_Years_Person_Rural INT,
+FF_Children_Currently_Attending_School_Age_6_17_Years_Person_Urban INT,
+FF_Children_Currently_Attending_School_Age_6_17_Years_Male_Total INT,
+FF_Children_Currently_Attending_School_Age_6_17_Years_Male_Rural INT,
+FF_Children_Currently_Attending_School_Age_6_17_Years_Male_Urban INT,
+FF_Children_Currently_Attending_School_Age_6_17_Years_Female_Total INT,
+FF_Children_Currently_Attending_School_Age_6_17_Years_Female_Rural INT,
+FF_Children_Currently_Attending_School_Age_6_17_Years_Female_Urban INT,
+FF_Children_Attended_Before_Drop_Out_Age_6_17_Years_Person_Total INT,
+FF_Children_Attended_Before_Drop_Out_Age_6_17_Years_Person_Rural INT,
+FF_Children_Attended_Before_Drop_Out_Age_6_17_Years_Person_Urban INT,
+FF_Children_Attended_Before_Drop_Out_Age_6_17_Years_Male_Total INT,
+FF_Children_Attended_Before_Drop_Out_Age_6_17_Years_Male_Rural INT,
+FF_Children_Attended_Before_Drop_Out_Age_6_17_Years_Male_Urban INT,
+FF_Children_Attended_Before_Drop_Out_Age_6_17_Years_Female_Total INT,
+FF_Children_Attended_Before_Drop_Out_Age_6_17_Years_Female_Rural INT,
+FF_Children_Attended_Before_Drop_Out_Age_6_17_Years_Female_Urban INT);
+
+CREATE TABLE GG_Work_And_ChildLabour_District (
+    State_Name VARCHAR(80) NOT NULL,
+    State_District_Name VARCHAR(80) NOT NULL,
+
+    GG_Children_Aged_5_14_Years_Engaged_In_Work_Person_Total INT,
+    GG_Children_Aged_5_14_Years_Engaged_In_Work_Person_Rural INT,
+    GG_Children_Aged_5_14_Years_Engaged_In_Work_Person_Urban INT,
+
+    GG_Children_Aged_5_14_Years_Engaged_In_Work_Male_Total INT,
+    GG_Children_Aged_5_14_Years_Engaged_In_Work_Male_Rural INT,
+    GG_Children_Aged_5_14_Years_Engaged_In_Work_Male_Urban INT,
+
+    GG_Children_Aged_5_14_Years_Engaged_In_Work_Female_Total INT,
+    GG_Children_Aged_5_14_Years_Engaged_In_Work_Female_Rural INT,
+    GG_Children_Aged_5_14_Years_Engaged_In_Work_Female_Urban INT,
+
+    GG_Work_Participation_Rate_15_Years_And_Above_Person_Total INT,
+    GG_Work_Participation_Rate_15_Years_And_Above_Person_Rural INT,
+    GG_Work_Participation_Rate_15_Years_And_Above_Person_Urban INT,
+
+    GG_Work_Participation_Rate_15_Years_And_Above_Male_Total INT,
+    GG_Work_Participation_Rate_15_Years_And_Above_Male_Rural INT,
+    GG_Work_Participation_Rate_15_Years_And_Above_Male_Urban INT,
+
+    GG_Work_Participation_Rate_15_Years_And_Above_Female_Total INT,
+    GG_Work_Participation_Rate_15_Years_And_Above_Female_Rural INT,
+    GG_Work_Participation_Rate_15_Years_And_Above_Female_Urban INT
+);
+
+CREATE TABLE GG_Work_States (
+    State_Name VARCHAR(50) NOT NULL,
+
+    GG_Children_Aged_5_14_Years_Engaged_In_Work_Person_Total INT,
+    GG_Children_Aged_5_14_Years_Engaged_In_Work_Person_Rural INT,
+    GG_Children_Aged_5_14_Years_Engaged_In_Work_Person_Urban INT,
+
+    GG_Children_Aged_5_14_Years_Engaged_In_Work_Male_Total INT,
+    GG_Children_Aged_5_14_Years_Engaged_In_Work_Male_Rural INT,
+    GG_Children_Aged_5_14_Years_Engaged_In_Work_Male_Urban INT,
+
+    GG_Children_Aged_5_14_Years_Engaged_In_Work_Female_Total INT,
+    GG_Children_Aged_5_14_Years_Engaged_In_Work_Female_Rural INT,
+    GG_Children_Aged_5_14_Years_Engaged_In_Work_Female_Urban INT,
+
+    GG_Work_Participation_Rate_15_Years_And_Above_Person_Total INT,
+    GG_Work_Participation_Rate_15_Years_And_Above_Person_Rural INT,
+    GG_Work_Participation_Rate_15_Years_And_Above_Person_Urban INT,
+
+    GG_Work_Participation_Rate_15_Years_And_Above_Male_Total INT,
+    GG_Work_Participation_Rate_15_Years_And_Above_Male_Rural INT,
+    GG_Work_Participation_Rate_15_Years_And_Above_Male_Urban INT,
+
+    GG_Work_Participation_Rate_15_Years_And_Above_Female_Total INT,
+    GG_Work_Participation_Rate_15_Years_And_Above_Female_Rural INT,
+    GG_Work_Participation_Rate_15_Years_And_Above_Female_Urban INT
+);
+
+CREATE TABLE HH_Disability_District (
+    State_Name VARCHAR(50) NOT NULL,
+    State_District_Name VARCHAR(50) NOT NULL,
+
+    HH_Prevalence_Of_Any_Type_Of_Disability_Per_100000_Population_Person_Total INT,
+    HH_Prevalence_Of_Any_Type_Of_Disability_Per_100000_Population_Person_Rural INT,
+    HH_Prevalence_Of_Any_Type_Of_Disability_Per_100000_Population_Person_Urban INT,
+
+    HH_Prevalence_Of_Any_Type_Of_Disability_Per_100000_Population_Male_Total INT,
+    HH_Prevalence_Of_Any_Type_Of_Disability_Per_100000_Population_Male_Rural INT,
+    HH_Prevalence_Of_Any_Type_Of_Disability_Per_100000_Population_Male_Urban INT,
+
+    HH_Prevalence_Of_Any_Type_Of_Disability_Per_100000_Population_Female_Total INT,
+    HH_Prevalence_Of_Any_Type_Of_Disability_Per_100000_Population_Female_Rural INT,
+    HH_Prevalence_Of_Any_Type_Of_Disability_Per_100000_Population_Female_Urban INT
+);
+
+CREATE TABLE HH_Disability_State (
+    State_Name VARCHAR(50) NOT NULL,
+
+    HH_Prevalence_Any_Disability_Person_Total INT,
+    HH_Prevalence_Any_Disability_Person_Rural INT,
+    HH_Prevalence_Any_Disability_Person_Urban INT,
+
+    HH_Prevalence_Any_Disability_Male_Total INT,
+    HH_Prevalence_Any_Disability_Male_Rural INT,
+    HH_Prevalence_Any_Disability_Male_Urban INT,
+
+    HH_Prevalence_Any_Disability_Female_Total INT,
+    HH_Prevalence_Any_Disability_Female_Rural INT,
+    HH_Prevalence_Any_Disability_Female_Urban INT
+);
+
+CREATE TABLE II_Injured_Persons (
+    State_Name VARCHAR(50) NOT NULL,
+    State_District_Name VARCHAR(80) NOT NULL,
+
+    -- Severe Injuries
+    II_Severe_Person_Total INT,
+    II_Severe_Person_Rural INT,
+    II_Severe_Person_Urban INT,
+
+    II_Severe_Male_Total INT,
+    II_Severe_Male_Rural INT,
+    II_Severe_Male_Urban INT,
+
+    II_Severe_Female_Total INT,
+    II_Severe_Female_Rural INT,
+    II_Severe_Female_Urban INT,
+
+    -- Major Injuries
+    II_Major_Person_Total INT,
+    II_Major_Person_Rural INT,
+    II_Major_Person_Urban INT,
+
+    II_Major_Male_Total INT,
+    II_Major_Male_Rural INT,
+    II_Major_Male_Urban INT,
+
+    II_Major_Female_Total INT,
+    II_Major_Female_Rural INT,
+    II_Major_Female_Urban INT,
+
+    -- Minor Injuries
+    II_Minor_Person_Total INT,
+    II_Minor_Person_Rural INT,
+    II_Minor_Person_Urban INT,
+
+    II_Minor_Male_Total INT,
+    II_Minor_Male_Rural INT,
+    II_Minor_Male_Urban INT,
+
+    II_Minor_Female_Total INT,
+    II_Minor_Female_Rural INT,
+    II_Minor_Female_Urban INT
+);
+
+CREATE TABLE II_Injured_Persons_State (
+    State_Name VARCHAR(100) NOT NULL,
+
+    -- Severe Injuries
+    II_Severe_Person_Total INT,
+    II_Severe_Person_Rural INT,
+    II_Severe_Person_Urban INT,
+
+    II_Severe_Male_Total INT,
+    II_Severe_Male_Rural INT,
+    II_Severe_Male_Urban INT,
+
+    II_Severe_Female_Total INT,
+    II_Severe_Female_Rural INT,
+    II_Severe_Female_Urban INT,
+
+    -- Major Injuries
+    II_Major_Person_Total INT,
+    II_Major_Person_Rural INT,
+    II_Major_Person_Urban INT,
+
+    II_Major_Male_Total INT,
+    II_Major_Male_Rural INT,
+    II_Major_Male_Urban INT,
+
+    II_Major_Female_Total INT,
+    II_Major_Female_Rural INT,
+    II_Major_Female_Urban INT,
+
+    -- Minor Injuries
+    II_Minor_Person_Total INT,
+    II_Minor_Person_Rural INT,
+    II_Minor_Person_Urban INT,
+
+    II_Minor_Male_Total INT,
+    II_Minor_Male_Rural INT,
+    II_Minor_Male_Urban INT,
+
+    II_Minor_Female_Total INT,
+    II_Minor_Female_Rural INT,
+    II_Minor_Female_Urban INT
+);
+
+CREATE TABLE JJ_Acute_Illness (
+    State_Name VARCHAR(100),
+    State_District_Name VARCHAR(150),
+
+    -- Diarrhoea / Dysentery
+    JJ_Diarrhoea_Person_Total INT,
+    JJ_Diarrhoea_Person_Rural INT,
+    JJ_Diarrhoea_Person_Urban INT,
+    JJ_Diarrhoea_Male_Total INT,
+    JJ_Diarrhoea_Male_Rural INT,
+    JJ_Diarrhoea_Male_Urban INT,
+    JJ_Diarrhoea_Female_Total INT,
+    JJ_Diarrhoea_Female_Rural INT,
+    JJ_Diarrhoea_Female_Urban INT,
+
+    -- Acute Respiratory Infection (ARI)
+    JJ_ARI_Person_Total INT,
+    JJ_ARI_Person_Rural INT,
+    JJ_ARI_Person_Urban INT,
+    JJ_ARI_Male_Total INT,
+    JJ_ARI_Male_Rural INT,
+    JJ_ARI_Male_Urban INT,
+    JJ_ARI_Female_Total INT,
+    JJ_ARI_Female_Rural INT,
+    JJ_ARI_Female_Urban INT,
+
+    -- Fever (All Types)
+    JJ_Fever_Person_Total INT,
+    JJ_Fever_Person_Rural INT,
+    JJ_Fever_Person_Urban INT,
+    JJ_Fever_Male_Total INT,
+    JJ_Fever_Male_Rural INT,
+    JJ_Fever_Male_Urban INT,
+    JJ_Fever_Female_Total INT,
+    JJ_Fever_Female_Rural INT,
+    JJ_Fever_Female_Urban INT,
+
+    -- Any Type of Acute Illness
+    JJ_AcuteIll_Person_Total INT,
+    JJ_AcuteIll_Person_Rural INT,
+    JJ_AcuteIll_Person_Urban INT,
+    JJ_AcuteIll_Male_Total INT,
+    JJ_AcuteIll_Male_Rural INT,
+    JJ_AcuteIll_Male_Urban INT,
+    JJ_AcuteIll_Female_Total INT,
+    JJ_AcuteIll_Female_Rural INT,
+    JJ_AcuteIll_Female_Urban INT,
+
+    -- Taking Treatment from Any Source
+    JJ_TreatAny_Person_Total INT,
+    JJ_TreatAny_Person_Rural INT,
+    JJ_TreatAny_Person_Urban INT,
+    JJ_TreatAny_Male_Total INT,
+    JJ_TreatAny_Male_Rural INT,
+    JJ_TreatAny_Male_Urban INT,
+    JJ_TreatAny_Female_Total INT,
+    JJ_TreatAny_Female_Rural INT,
+    JJ_TreatAny_Female_Urban INT,
+
+    -- Taking Treatment from Government Source
+    JJ_TreatGov_Person_Total INT,
+    JJ_TreatGov_Person_Rural INT,
+    JJ_TreatGov_Person_Urban INT,
+    JJ_TreatGov_Male_Total INT,
+    JJ_TreatGov_Male_Rural INT,
+    JJ_TreatGov_Male_Urban INT,
+    JJ_TreatGov_Female_Total INT,
+    JJ_TreatGov_Female_Rural INT,
+    JJ_TreatGov_Female_Urban INT
+);
+
+CREATE TABLE JJ_Acute_Illness_Per100k_State (
+    State_Name VARCHAR(100),
+
+    -- Diarrhoea / Dysentery
+    JJ_Diarrhoea_Person_Total INT,
+    JJ_Diarrhoea_Person_Rural INT,
+    JJ_Diarrhoea_Person_Urban INT,
+    JJ_Diarrhoea_Male_Total INT,
+    JJ_Diarrhoea_Male_Rural INT,
+    JJ_Diarrhoea_Male_Urban INT,
+    JJ_Diarrhoea_Female_Total INT,
+    JJ_Diarrhoea_Female_Rural INT,
+    JJ_Diarrhoea_Female_Urban INT,
+
+    -- Acute Respiratory Infection (ARI)
+    JJ_ARI_Person_Total INT,
+    JJ_ARI_Person_Rural INT,
+    JJ_ARI_Person_Urban INT,
+    JJ_ARI_Male_Total INT,
+    JJ_ARI_Male_Rural INT,
+    JJ_ARI_Male_Urban INT,
+    JJ_ARI_Female_Total INT,
+    JJ_ARI_Female_Rural INT,
+    JJ_ARI_Female_Urban INT,
+
+    -- Fever (All Types)
+    JJ_Fever_Person_Total INT,
+    JJ_Fever_Person_Rural INT,
+    JJ_Fever_Person_Urban INT,
+    JJ_Fever_Male_Total INT,
+    JJ_Fever_Male_Rural INT,
+    JJ_Fever_Male_Urban INT,
+    JJ_Fever_Female_Total INT,
+    JJ_Fever_Female_Rural INT,
+    JJ_Fever_Female_Urban INT,
+
+    -- Any Type of Acute Illness
+    JJ_AcuteIll_Person_Total INT,
+    JJ_AcuteIll_Person_Rural INT,
+    JJ_AcuteIll_Person_Urban INT,
+    JJ_AcuteIll_Male_Total INT,
+    JJ_AcuteIll_Male_Rural INT,
+    JJ_AcuteIll_Male_Urban INT,
+    JJ_AcuteIll_Female_Total INT,
+    JJ_AcuteIll_Female_Rural INT,
+    JJ_AcuteIll_Female_Urban INT,
+
+    -- Taking Treatment From Any Source
+    JJ_TreatAny_Person_Total INT,
+    JJ_TreatAny_Person_Rural INT,
+    JJ_TreatAny_Person_Urban INT,
+    JJ_TreatAny_Male_Total INT,
+    JJ_TreatAny_Male_Rural INT,
+    JJ_TreatAny_Male_Urban INT,
+    JJ_TreatAny_Female_Total INT,
+    JJ_TreatAny_Female_Rural INT,
+    JJ_TreatAny_Female_Urban INT,
+
+    -- Taking Treatment From Government Source
+    JJ_TreatGov_Person_Total INT,
+    JJ_TreatGov_Person_Rural INT,
+    JJ_TreatGov_Person_Urban INT,
+    JJ_TreatGov_Male_Total INT,
+    JJ_TreatGov_Male_Rural INT,
+    JJ_TreatGov_Male_Urban INT,
+    JJ_TreatGov_Female_Total INT,
+    JJ_TreatGov_Female_Rural INT,
+    JJ_TreatGov_Female_Urban INT
+);
+
+CREATE TABLE chronic_illness_stats (
+    State_Name VARCHAR(100),
+    State_District_Name VARCHAR(150),
+
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_Per_100000_Population_Person_Total INT,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_Per_100000_Population_Person_Rural INT,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_Per_100000_Population_Person_Urban INT,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_Per_100000_Population_Male_Total INT,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_Per_100000_Population_Male_Rural INT,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_Per_100000_Population_Male_Urban INT,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_Per_100000_Population_Female_Total INT,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_Per_100000_Population_Female_Rural INT,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_Per_100000_Population_Female_Urban INT,
+
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_And_Sought_Medical_Care_Person_Total INT,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_And_Sought_Medical_Care_Person_Rural INT,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_And_Sought_Medical_Care_Person_Urban INT,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_And_Sought_Medical_Care_Male_Total INT,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_And_Sought_Medical_Care_Male_Rural INT,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_And_Sought_Medical_Care_Male_Urban INT,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_And_Sought_Medical_Care_Female_Total INT,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_And_Sought_Medical_Care_Female_Rural INT,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_And_Sought_Medical_Care_Female_Urban INT,
+
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Diabetes_Person_Total INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Diabetes_Person_Rural INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Diabetes_Person_Urban INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Diabetes_Male_Total INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Diabetes_Male_Rural INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Diabetes_Male_Urban INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Diabetes_Female_Total INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Diabetes_Female_Rural INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Diabetes_Female_Urban INT,
+
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Hypertension_Person_Total INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Hypertension_Person_Rural INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Hypertension_Person_Urban INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Hypertension_Male_Total INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Hypertension_Male_Rural INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Hypertension_Male_Urban INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Hypertension_Female_Total INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Hypertension_Female_Rural INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Hypertension_Female_Urban INT,
+
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Tuberculosis_Tb_Person_Total INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Tuberculosis_Tb_Person_Rural INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Tuberculosis_Tb_Person_Urban INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Tuberculosis_Tb_Male_Total INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Tuberculosis_Tb_Male_Rural INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Tuberculosis_Tb_Male_Urban INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Tuberculosis_Tb_Female_Total INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Tuberculosis_Tb_Female_Rural INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Tuberculosis_Tb_Female_Urban INT,
+
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Asthma_Chronic_Respiratory_Disease_Person_Total INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Asthma_Chronic_Respiratory_Disease_Person_Rural INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Asthma_Chronic_Respiratory_Disease_Person_Urban INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Asthma_Chronic_Respiratory_Disease_Male_Total INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Asthma_Chronic_Respiratory_Disease_Male_Rural INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Asthma_Chronic_Respiratory_Disease_Male_Urban INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Asthma_Chronic_Respiratory_Disease_Female_Total INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Asthma_Chronic_Respiratory_Disease_Female_Rural INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Asthma_Chronic_Respiratory_Disease_Female_Urban INT,
+
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Arthritis_Person_Total INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Arthritis_Person_Rural INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Arthritis_Person_Urban INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Arthritis_Male_Total INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Arthritis_Male_Rural INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Arthritis_Male_Urban INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Arthritis_Female_Total INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Arthritis_Female_Rural INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Arthritis_Female_Urban INT,
+
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Any_Kind_Of_Chronic_Illness_Person_Total INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Any_Kind_Of_Chronic_Illness_Person_Rural INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Any_Kind_Of_Chronic_Illness_Person_Urban INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Any_Kind_Of_Chronic_Illness_Male_Total INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Any_Kind_Of_Chronic_Illness_Male_Rural INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Any_Kind_Of_Chronic_Illness_Male_Urban INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Any_Kind_Of_Chronic_Illness_Female_Total INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Any_Kind_Of_Chronic_Illness_Female_Rural INT,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Any_Kind_Of_Chronic_Illness_Female_Urban INT,
+
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_Person_Total INT,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_Person_Rural INT,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_Person_Urban INT,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_Male_Total INT,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_Male_Rural INT,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_Male_Urban INT,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_Female_Total INT,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_Female_Rural INT,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_Female_Urban INT,
+
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_From_Government_Source_Person_Total INT,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_From_Government_Source_Person_Rural INT,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_From_Government_Source_Person_Urban INT,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_From_Government_Source_Male_Total INT,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_From_Government_Source_Male_Rural INT,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_From_Government_Source_Male_Urban INT,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_From_Government_Source_Female_Total INT,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_From_Government_Source_Female_Rural INT,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_From_Government_Source_Female_Urban INT
+);
 
 
-  
+CREATE TABLE chronic_illness_stats (
+    State_Name TEXT,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_Per_100000_Population_Person_Total REAL,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_Per_100000_Population_Person_Rural REAL,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_Per_100000_Population_Person_Urban REAL,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_Per_100000_Population_Male_Total REAL,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_Per_100000_Population_Male_Rural REAL,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_Per_100000_Population_Male_Urban REAL,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_Per_100000_Population_Female_Total REAL,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_Per_100000_Population_Female_Rural REAL,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_Per_100000_Population_Female_Urban REAL,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_And_Sought_Medical_Care_Person_Total REAL,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_And_Sought_Medical_Care_Person_Rural REAL,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_And_Sought_Medical_Care_Person_Urban REAL,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_And_Sought_Medical_Care_Male_Total REAL,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_And_Sought_Medical_Care_Male_Rural REAL,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_And_Sought_Medical_Care_Male_Urban REAL,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_And_Sought_Medical_Care_Female_Total REAL,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_And_Sought_Medical_Care_Female_Rural REAL,
+    KK_Having_Any_Kind_Of_Symptoms_Of_Chronic_Illness_And_Sought_Medical_Care_Female_Urban REAL,
+
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Diabetes_Person_Total REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Diabetes_Person_Rural REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Diabetes_Person_Urban REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Diabetes_Male_Total REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Diabetes_Male_Rural REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Diabetes_Male_Urban REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Diabetes_Female_Total REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Diabetes_Female_Rural REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Diabetes_Female_Urban REAL,
+
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Hypertension_Person_Total REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Hypertension_Person_Rural REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Hypertension_Person_Urban REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Hypertension_Male_Total REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Hypertension_Male_Rural REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Hypertension_Male_Urban REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Hypertension_Female_Total REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Hypertension_Female_Rural REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Hypertension_Female_Urban REAL,
+
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Tuberculosis_Tb_Person_Total REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Tuberculosis_Tb_Person_Rural REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Tuberculosis_Tb_Person_Urban REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Tuberculosis_Tb_Male_Total REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Tuberculosis_Tb_Male_Rural REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Tuberculosis_Tb_Male_Urban REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Tuberculosis_Tb_Female_Total REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Tuberculosis_Tb_Female_Rural REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Tuberculosis_Tb_Female_Urban REAL,
+
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Asthma_Chronic_Respiratory_Disease_Person_Total REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Asthma_Chronic_Respiratory_Disease_Person_Rural REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Asthma_Chronic_Respiratory_Disease_Person_Urban REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Asthma_Chronic_Respiratory_Disease_Male_Total REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Asthma_Chronic_Respiratory_Disease_Male_Rural REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Asthma_Chronic_Respiratory_Disease_Male_Urban REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Asthma_Chronic_Respiratory_Disease_Female_Total REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Asthma_Chronic_Respiratory_Disease_Female_Rural REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Asthma_Chronic_Respiratory_Disease_Female_Urban REAL,
+
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Arthritis_Person_Total REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Arthritis_Person_Rural REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Arthritis_Person_Urban REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Arthritis_Male_Total REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Arthritis_Male_Rural REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Arthritis_Male_Urban REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Arthritis_Female_Total REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Arthritis_Female_Rural REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Arthritis_Female_Urban REAL,
+
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Any_Kind_Of_Chronic_Illness_Person_Total REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Any_Kind_Of_Chronic_Illness_Person_Rural REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Any_Kind_Of_Chronic_Illness_Person_Urban REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Any_Kind_Of_Chronic_Illness_Male_Total REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Any_Kind_Of_Chronic_Illness_Male_Rural REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Any_Kind_Of_Chronic_Illness_Male_Urban REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Any_Kind_Of_Chronic_Illness_Female_Total REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Any_Kind_Of_Chronic_Illness_Female_Rural REAL,
+    KK_Having_Diagnosed_For_Chronic_Illness_Per_100000_Population_Any_Kind_Of_Chronic_Illness_Female_Urban REAL,
+
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_Person_Total REAL,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_Person_Rural REAL,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_Person_Urban REAL,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_Male_Total REAL,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_Male_Rural REAL,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_Male_Urban REAL,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_Female_Total REAL,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_Female_Rural REAL,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_Female_Urban REAL,
+
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_From_Government_Source_Person_Total REAL,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_From_Government_Source_Person_Rural REAL,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_From_Government_Source_Person_Urban REAL,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_From_Government_Source_Male_Total REAL,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_From_Government_Source_Male_Rural REAL,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_From_Government_Source_Male_Urban REAL,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_From_Government_Source_Female_Total REAL,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_From_Government_Source_Female_Rural REAL,
+    KK_Having_Diagnosed_For_Any_Kind_Of_Chronic_Illness_And_Getting_Regular_Treatment_From_Government_Source_Female_Urban REAL
+);
+
+CREATE TABLE fertility_metrics (
+    state_name VARCHAR(100),
+    state_district_name VARCHAR(150),
+    cbr_total FLOAT,
+    cbr_rural FLOAT,
+    cbr_urban FLOAT,
+    ngr_total FLOAT,
+    ngr_rural FLOAT,
+    ngr_urban FLOAT,
+    tfr_total FLOAT,
+    tfr_rural FLOAT,
+    tfr_urban FLOAT,
+    birth_order2_20_24_total FLOAT,
+    birth_order2_20_24_rural FLOAT,
+    birth_order2_20_24_urban FLOAT,
+    birth_order3_total FLOAT,
+    birth_order3_rural FLOAT,
+    birth_order3_urban FLOAT,
+    two_child_no_more_total FLOAT,
+    two_child_no_more_rural FLOAT,
+    two_child_no_more_urban FLOAT,
+    teen_mothers_15_19_total FLOAT,
+    teen_mothers_15_19_rural FLOAT,
+    teen_mothers_15_19_urban FLOAT,
+    median_first_birth_15_49_total FLOAT,
+    median_first_birth_15_49_rural FLOAT,
+    median_first_birth_15_49_urban FLOAT,
+    median_first_birth_25_49_total FLOAT,
+    median_first_birth_25_49_rural FLOAT,
+    median_first_birth_25_49_urban FLOAT,
+    birth_interval_36_total FLOAT,
+    birth_interval_36_rural FLOAT,
+    birth_interval_36_urban FLOAT,
+    mean_children_ever_15_49_total FLOAT,
+    mean_children_ever_15_49_rural FLOAT,
+    mean_children_ever_15_49_urban FLOAT,
+    mean_children_survive_15_49_total FLOAT,
+    mean_children_survive_15_49_rural FLOAT,
+    mean_children_survive_15_49_urban FLOAT,
+    mean_children_ever_45_49_total FLOAT,
+    mean_children_ever_45_49_rural FLOAT,
+    mean_children_ever_45_49_urban FLOAT
+);
+
+CREATE TABLE Fertility_Maternity_Stats (
+    State_Name VARCHAR(100),
+
+    LL_Crude_Birth_Rate_Cbr_Total DECIMAL(5,2),
+    LL_Crude_Birth_Rate_Cbr_Rural DECIMAL(5,2),
+    LL_Crude_Birth_Rate_Cbr_Urban DECIMAL(5,2),
+
+    LL_Natural_Growth_Rate_Total DECIMAL(5,2),
+    LL_Natural_Growth_Rate_Rural DECIMAL(5,2),
+    LL_Natural_Growth_Rate_Urban DECIMAL(5,2),
+
+    LL_Total_Fertility_Rate_Total DECIMAL(5,2),
+    LL_Total_Fertility_Rate_Rural DECIMAL(5,2),
+    LL_Total_Fertility_Rate_Urban DECIMAL(5,2),
+
+    LL_Women_Aged_20_24_Reporting_Birth_Of_Order_2_Above_Total DECIMAL(5,2),
+    LL_Women_Aged_20_24_Reporting_Birth_Of_Order_2_Above_Rural DECIMAL(5,2),
+    LL_Women_Aged_20_24_Reporting_Birth_Of_Order_2_Above_Urban DECIMAL(5,2),
+
+    LL_Women_Reporting_Birth_Of_Order_3_Above_Total DECIMAL(5,2),
+    LL_Women_Reporting_Birth_Of_Order_3_Above_Rural DECIMAL(5,2),
+    LL_Women_Reporting_Birth_Of_Order_3_Above_Urban DECIMAL(5,2),
+
+    LL_Women_With_Two_Children_Wanting_No_More_Children_Total DECIMAL(5,2),
+    LL_Women_With_Two_Children_Wanting_No_More_Children_Rural DECIMAL(5,2),
+    LL_Women_With_Two_Children_Wanting_No_More_Children_Urban DECIMAL(5,2),
+
+    LL_Women_Aged_15_19_Years_Who_Were_Already_Mothers_Or_Pregnant_Total DECIMAL(5,2),
+    LL_Women_Aged_15_19_Years_Who_Were_Already_Mothers_Or_Pregnant_Rural DECIMAL(5,2),
+    LL_Women_Aged_15_19_Years_Who_Were_Already_Mothers_Or_Pregnant_Urban DECIMAL(5,2),
+
+    LL_Median_Age_At_First_Live_Birth_Of_Women_Aged_15_49_Years_Total DECIMAL(5,2),
+    LL_Median_Age_At_First_Live_Birth_Of_Women_Aged_15_49_Years_Rural DECIMAL(5,2),
+    LL_Median_Age_At_First_Live_Birth_Of_Women_Aged_15_49_Years_Urban DECIMAL(5,2),
+
+    LL_Median_Age_At_First_Live_Birth_Of_Women_Aged_25_49_Years_Total DECIMAL(5,2),
+    LL_Median_Age_At_First_Live_Birth_Of_Women_Aged_25_49_Years_Rural DECIMAL(5,2),
+    LL_Median_Age_At_First_Live_Birth_Of_Women_Aged_25_49_Years_Urban DECIMAL(5,2),
+
+    LL_Live_Births_Taking_Place_After_An_Interval_Of_36_Months_Total DECIMAL(5,2),
+    LL_Live_Births_Taking_Place_After_An_Interval_Of_36_Months_Rural DECIMAL(5,2),
+    LL_Live_Births_Taking_Place_After_An_Interval_Of_36_Months_Urban DECIMAL(5,2),
+
+    LL_Mean_Number_Of_Children_Ever_Born_TO_Women_Aged_15_49_Years_Total DECIMAL(5,2),
+    LL_Mean_Number_Of_Children_Ever_Born_TO_Women_Aged_15_49_Years_Rural DECIMAL(5,2),
+    LL_Mean_Number_Of_Children_Ever_Born_TO_Women_Aged_15_49_Years_Urban DECIMAL(5,2),
+
+    LL_Mean_Number_Of_Children_Surviving_TO_Women_Aged_15_49_Years_Total DECIMAL(5,2),
+    LL_Mean_Number_Of_Children_Surviving_TO_Women_Aged_15_49_Years_Rural DECIMAL(5,2),
+    LL_Mean_Number_Of_Children_Surviving_TO_Women_Aged_15_49_Years_Urban DECIMAL(5,2),
+
+    LL_Mean_Number_Of_Children_Ever_Born_TO_Women_Aged_45_49_Years_Total DECIMAL(5,2),
+    LL_Mean_Number_Of_Children_Ever_Born_TO_Women_Aged_45_49_Years_Rural DECIMAL(5,2),
+    LL_Mean_Number_Of_Children_Ever_Born_TO_Women_Aged_45_49_Years_Urban DECIMAL(5,2)
+);
+
+CREATE TABLE Maternal_Abortion_Stats (
+    State_Name VARCHAR(100),
+    State_District_Name VARCHAR(100),
+
+    MM_Pregnancy_To_Women_Aged_15_49_Years_Resulting_In_Abortion_Total DECIMAL(10,2),
+    MM_Pregnancy_To_Women_Aged_15_49_Years_Resulting_In_Abortion_Rural DECIMAL(10,2),
+    MM_Pregnancy_To_Women_Aged_15_49_Years_Resulting_In_Abortion_Urban DECIMAL(10,2),
+
+    MM_Women_Who_Received_Any_Anc_Before_Abortion_Total DECIMAL(10,2),
+    MM_Women_Who_Received_Any_Anc_Before_Abortion_Rural DECIMAL(10,2),
+    MM_Women_Who_Received_Any_Anc_Before_Abortion_Urban DECIMAL(10,2),
+
+    MM_Women_Who_Went_For_Ultrasound_Before_Abortion_Total DECIMAL(10,2),
+    MM_Women_Who_Went_For_Ultrasound_Before_Abortion_Rural DECIMAL(10,2),
+    MM_Women_Who_Went_For_Ultrasound_Before_Abortion_Urban DECIMAL(10,2),
+
+    MM_Average_Month_Of_Pregnancy_At_The_Time_Of_Abortion_Total DECIMAL(5,2),
+    MM_Average_Month_Of_Pregnancy_At_The_Time_Of_Abortion_Rural DECIMAL(5,2),
+    MM_Average_Month_Of_Pregnancy_At_The_Time_Of_Abortion_Urban DECIMAL(5,2),
+
+    MM_Abortion_Performed_By_Skilled_Health_Personnel_Total DECIMAL(10,2),
+    MM_Abortion_Performed_By_Skilled_Health_Personnel_Rural DECIMAL(10,2),
+    MM_Abortion_Performed_By_Skilled_Health_Personnel_Urban DECIMAL(10,2),
+
+    MM_Abortion_Taking_Place_In_Institution_Total DECIMAL(10,2),
+    MM_Abortion_Taking_Place_In_Institution_Rural DECIMAL(10,2),
+    MM_Abortion_Taking_Place_In_Institution_Urban DECIMAL(10,2)
+);
+
+CREATE TABLE Maternal_Abortion_Stats (
+    State_Name VARCHAR(100),
+    
+    MM_Pregnancy_To_Women_Aged_15_49_Years_Resulting_In_Abortion_Total DECIMAL(10,2),
+    MM_Pregnancy_To_Women_Aged_15_49_Years_Resulting_In_Abortion_Rural DECIMAL(10,2),
+    MM_Pregnancy_To_Women_Aged_15_49_Years_Resulting_In_Abortion_Urban DECIMAL(10,2),
+
+    MM_Women_Who_Received_Any_Anc_Before_Abortion_Total DECIMAL(10,2),
+    MM_Women_Who_Received_Any_Anc_Before_Abortion_Rural DECIMAL(10,2),
+    MM_Women_Who_Received_Any_Anc_Before_Abortion_Urban DECIMAL(10,2),
+
+    MM_Women_Who_Went_For_Ultrasound_Before_Abortion_Total DECIMAL(10,2),
+    MM_Women_Who_Went_For_Ultrasound_Before_Abortion_Rural DECIMAL(10,2),
+    MM_Women_Who_Went_For_Ultrasound_Before_Abortion_Urban DECIMAL(10,2),
+
+    MM_Average_Month_Of_Pregnancy_At_The_Time_Of_Abortion_Total DECIMAL(5,2),
+    MM_Average_Month_Of_Pregnancy_At_The_Time_Of_Abortion_Rural DECIMAL(5,2),
+    MM_Average_Month_Of_Pregnancy_At_The_Time_Of_Abortion_Urban DECIMAL(5,2),
+
+    MM_Abortion_Performed_By_Skilled_Health_Personnel_Total DECIMAL(10,2),
+    MM_Abortion_Performed_By_Skilled_Health_Personnel_Rural DECIMAL(10,2),
+    MM_Abortion_Performed_By_Skilled_Health_Personnel_Urban DECIMAL(10,2),
+
+    MM_Abortion_Taking_Place_In_Institution_Total DECIMAL(10,2),
+    MM_Abortion_Taking_Place_In_Institution_Rural DECIMAL(10,2),
+    MM_Abortion_Taking_Place_In_Institution_Urban DECIMAL(10,2)
+);
+
+CREATE TABLE Contraceptive_Usage_Stats (
+    State_Name VARCHAR(100),
+    State_District_Name VARCHAR(100),
+
+    NN_Current_Usage_Any_Method_Total DECIMAL(10,2),
+    NN_Current_Usage_Any_Method_Rural DECIMAL(10,2),
+    NN_Current_Usage_Any_Method_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Any_Modern_Method_Total DECIMAL(10,2),
+    NN_Current_Usage_Any_Modern_Method_Rural DECIMAL(10,2),
+    NN_Current_Usage_Any_Modern_Method_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Female_Sterilization_Total DECIMAL(10,2),
+    NN_Current_Usage_Female_Sterilization_Rural DECIMAL(10,2),
+    NN_Current_Usage_Female_Sterilization_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Male_Sterilization_Total DECIMAL(10,2),
+    NN_Current_Usage_Male_Sterilization_Rural DECIMAL(10,2),
+    NN_Current_Usage_Male_Sterilization_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Copper_T_Iud_Total DECIMAL(10,2),
+    NN_Current_Usage_Copper_T_Iud_Rural DECIMAL(10,2),
+    NN_Current_Usage_Copper_T_Iud_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Pills_Total DECIMAL(10,2),
+    NN_Current_Usage_Pills_Rural DECIMAL(10,2),
+    NN_Current_Usage_Pills_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Condom_Nirodh_Total DECIMAL(10,2),
+    NN_Current_Usage_Condom_Nirodh_Rural DECIMAL(10,2),
+    NN_Current_Usage_Condom_Nirodh_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Emergency_Contraceptive_Pills_Total DECIMAL(10,2),
+    NN_Current_Usage_Emergency_Contraceptive_Pills_Rural DECIMAL(10,2),
+    NN_Current_Usage_Emergency_Contraceptive_Pills_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Any_Traditional_Method_Total DECIMAL(10,2),
+    NN_Current_Usage_Any_Traditional_Method_Rural DECIMAL(10,2),
+    NN_Current_Usage_Any_Traditional_Method_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Periodic_Abstinence_Total DECIMAL(10,2),
+    NN_Current_Usage_Periodic_Abstinence_Rural DECIMAL(10,2),
+    NN_Current_Usage_Periodic_Abstinence_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Withdrawal_Total DECIMAL(10,2),
+    NN_Current_Usage_Withdrawal_Rural DECIMAL(10,2),
+    NN_Current_Usage_Withdrawal_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Lam_Total DECIMAL(10,2),
+    NN_Current_Usage_Lam_Rural DECIMAL(10,2),
+    NN_Current_Usage_Lam_Urban DECIMAL(10,2)
+);
+
+CREATE TABLE Current_Contraceptive_Usage (
+    State_Name VARCHAR(100),
+
+    NN_Current_Usage_Any_Method_Total DECIMAL(10,2),
+    NN_Current_Usage_Any_Method_Rural DECIMAL(10,2),
+    NN_Current_Usage_Any_Method_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Any_Modern_Method_Total DECIMAL(10,2),
+    NN_Current_Usage_Any_Modern_Method_Rural DECIMAL(10,2),
+    NN_Current_Usage_Any_Modern_Method_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Female_Sterilization_Total DECIMAL(10,2),
+    NN_Current_Usage_Female_Sterilization_Rural DECIMAL(10,2),
+    NN_Current_Usage_Female_Sterilization_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Male_Sterilization_Total DECIMAL(10,2),
+    NN_Current_Usage_Male_Sterilization_Rural DECIMAL(10,2),
+    NN_Current_Usage_Male_Sterilization_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Copper_T_Iud_Total DECIMAL(10,2),
+    NN_Current_Usage_Copper_T_Iud_Rural DECIMAL(10,2),
+    NN_Current_Usage_Copper_T_Iud_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Pills_Total DECIMAL(10,2),
+    NN_Current_Usage_Pills_Rural DECIMAL(10,2),
+    NN_Current_Usage_Pills_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Condom_Nirodh_Total DECIMAL(10,2),
+    NN_Current_Usage_Condom_Nirodh_Rural DECIMAL(10,2),
+    NN_Current_Usage_Condom_Nirodh_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Emergency_Contraceptive_Pills_Total DECIMAL(10,2),
+    NN_Current_Usage_Emergency_Contraceptive_Pills_Rural DECIMAL(10,2),
+    NN_Current_Usage_Emergency_Contraceptive_Pills_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Any_Traditional_Method_Total DECIMAL(10,2),
+    NN_Current_Usage_Any_Traditional_Method_Rural DECIMAL(10,2),
+    NN_Current_Usage_Any_Traditional_Method_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Periodic_Abstinence_Total DECIMAL(10,2),
+    NN_Current_Usage_Periodic_Abstinence_Rural DECIMAL(10,2),
+    NN_Current_Usage_Periodic_Abstinence_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Withdrawal_Total DECIMAL(10,2),
+    NN_Current_Usage_Withdrawal_Rural DECIMAL(10,2),
+    NN_Current_Usage_Withdrawal_Urban DECIMAL(10,2),
+
+    NN_Current_Usage_Lam_Total DECIMAL(10,2),
+    NN_Current_Usage_Lam_Rural DECIMAL(10,2),
+    NN_Current_Usage_Lam_Urban DECIMAL(10,2)
+);
+
+CREATE TABLE Unmet_Need (
+    State_Name VARCHAR(100),
+
+    OO_Unmet_Need_For_Spacing_Total DECIMAL(10,2),
+    OO_Unmet_Need_For_Spacing_Rural DECIMAL(10,2),
+    OO_Unmet_Need_For_Spacing_Urban DECIMAL(10,2),
+
+    OO_Unmet_Need_For_Limiting_Total DECIMAL(10,2),
+    OO_Unmet_Need_For_Limiting_Rural DECIMAL(10,2),
+    OO_Unmet_Need_For_Limiting_Urban DECIMAL(10,2),
+
+    OO_Total_Unmet_Need_Total DECIMAL(10,2),
+    OO_Total_Unmet_Need_Rural DECIMAL(10,2),
+    OO_Total_Unmet_Need_Urban DECIMAL(10,2)
+);
+
+CREATE TABLE Unmet_Need (
+    State_Name VARCHAR(100) PRIMARY KEY,
+    
+    OO_Unmet_Need_For_Spacing_Total DECIMAL(10,2),
+    OO_Unmet_Need_For_Spacing_Rural DECIMAL(10,2),
+    OO_Unmet_Need_For_Spacing_Urban DECIMAL(10,2),
+    
+    OO_Unmet_Need_For_Limiting_Total DECIMAL(10,2),
+    OO_Unmet_Need_For_Limiting_Rural DECIMAL(10,2),
+    OO_Unmet_Need_For_Limiting_Urban DECIMAL(10,2),
+    
+    OO_Total_Unmet_Need_Total DECIMAL(10,2),
+    OO_Total_Unmet_Need_Rural DECIMAL(10,2),
+    OO_Total_Unmet_Need_Urban DECIMAL(10,2)
+);
+
+CREATE TABLE Pregnant_Women_ANC (
+    State_Name VARCHAR(100) PRIMARY KEY,
+    
+    PP_Currently_Married_Pregnant_Women_Aged_15_49_Years_Registered_For_Anc_Total DECIMAL(10,2),
+    PP_Currently_Married_Pregnant_Women_Aged_15_49_Years_Registered_For_Anc_Rural DECIMAL(10,2),
+    PP_Currently_Married_Pregnant_Women_Aged_15_49_Years_Registered_For_Anc_Urban DECIMAL(10,2),
+    
+    PP_Mothers_Who_Received_Any_Antenatal_Check_Up_Total DECIMAL(10,2),
+    PP_Mothers_Who_Received_Any_Antenatal_Check_Up_Rural DECIMAL(10,2),
+    PP_Mothers_Who_Received_Any_Antenatal_Check_Up_Urban DECIMAL(10,2),
+    
+    PP_Mothers_Who_Had_Antenatal_Check_Up_In_First_Trimester_Total DECIMAL(10,2),
+    PP_Mothers_Who_Had_Antenatal_Check_Up_In_First_Trimester_Rural DECIMAL(10,2),
+    PP_Mothers_Who_Had_Antenatal_Check_Up_In_First_Trimester_Urban DECIMAL(10,2),
+    
+    PP_Mothers_Who_Received_3_Or_More_Antenatal_Care_Total DECIMAL(10,2),
+    PP_Mothers_Who_Received_3_Or_More_Antenatal_Care_Rural DECIMAL(10,2),
+    PP_Mothers_Who_Received_3_Or_More_Antenatal_Care_Urban DECIMAL(10,2),
+    
+    PP_Mothers_Who_Received_At_Least_One_Tetanus_Toxoid_Tt_Injection_Total DECIMAL(10,2),
+    PP_Mothers_Who_Received_At_Least_One_Tetanus_Toxoid_Tt_Injection_Rural DECIMAL(10,2),
+    PP_Mothers_Who_Received_At_Least_One_Tetanus_Toxoid_Tt_Injection_Urban DECIMAL(10,2),
+    
+    PP_Mothers_Who_Consumed_Ifa_For_100_Days_Or_More_Total DECIMAL(10,2),
+    PP_Mothers_Who_Consumed_Ifa_For_100_Days_Or_More_Rural DECIMAL(10,2),
+    PP_Mothers_Who_Consumed_Ifa_For_100_Days_Or_More_Urban DECIMAL(10,2),
+    
+    PP_Mothers_Who_Had_Full_Antenatal_Check_Up_Total DECIMAL(10,2),
+    PP_Mothers_Who_Had_Full_Antenatal_Check_Up_Rural DECIMAL(10,2),
+    PP_Mothers_Who_Had_Full_Antenatal_Check_Up_Urban DECIMAL(10,2),
+    
+    PP_Mothers_Who_Received_Anc_From_Govt_Source_Total DECIMAL(10,2),
+    PP_Mothers_Who_Received_Anc_From_Govt_Source_Rural DECIMAL(10,2),
+    PP_Mothers_Who_Received_Anc_From_Govt_Source_Urban DECIMAL(10,2),
+    
+    PP_Mothers_Whose_Blood_Pressure_Bp_Taken_Total DECIMAL(10,2),
+    PP_Mothers_Whose_Blood_Pressure_Bp_Taken_Rural DECIMAL(10,2),
+    PP_Mothers_Whose_Blood_Pressure_Bp_Taken_Urban DECIMAL(10,2),
+    
+    PP_Mothers_Whose_Blood_Taken_For_Hb_Total DECIMAL(10,2),
+    PP_Mothers_Whose_Blood_Taken_For_Hb_Rural DECIMAL(10,2),
+    PP_Mothers_Whose_Blood_Taken_For_Hb_Urban DECIMAL(10,2),
+    
+    PP_Mothers_Who_Underwent_Ultrasound_Total DECIMAL(10,2),
+    PP_Mothers_Who_Underwent_Ultrasound_Rural DECIMAL(10,2),
+    PP_Mothers_Who_Underwent_Ultrasound_Urban DECIMAL(10,2)
+);
+
+CREATE TABLE Pregnant_Women_ANC (
+    State_Name VARCHAR(100) PRIMARY KEY,
+    
+    PP_Currently_Married_Pregnant_Women_Aged_15_49_Years_Registered_For_Anc_Total DECIMAL(10,2),
+    PP_Currently_Married_Pregnant_Women_Aged_15_49_Years_Registered_For_Anc_Rural DECIMAL(10,2),
+    PP_Currently_Married_Pregnant_Women_Aged_15_49_Years_Registered_For_Anc_Urban DECIMAL(10,2),
+    
+    PP_Mothers_Who_Received_Any_Antenatal_Check_Up_Total DECIMAL(10,2),
+    PP_Mothers_Who_Received_Any_Antenatal_Check_Up_Rural DECIMAL(10,2),
+    PP_Mothers_Who_Received_Any_Antenatal_Check_Up_Urban DECIMAL(10,2),
+    
+    PP_Mothers_Who_Had_Antenatal_Check_Up_In_First_Trimester_Total DECIMAL(10,2),
+    PP_Mothers_Who_Had_Antenatal_Check_Up_In_First_Trimester_Rural DECIMAL(10,2),
+    PP_Mothers_Who_Had_Antenatal_Check_Up_In_First_Trimester_Urban DECIMAL(10,2),
+    
+    PP_Mothers_Who_Received_3_Or_More_Antenatal_Care_Total DECIMAL(10,2),
+    PP_Mothers_Who_Received_3_Or_More_Antenatal_Care_Rural DECIMAL(10,2),
+    PP_Mothers_Who_Received_3_Or_More_Antenatal_Care_Urban DECIMAL(10,2),
+    
+    PP_Mothers_Who_Received_At_Least_One_Tetanus_Toxoid_Tt_Injection_Total DECIMAL(10,2),
+    PP_Mothers_Who_Received_At_Least_One_Tetanus_Toxoid_Tt_Injection_Rural DECIMAL(10,2),
+    PP_Mothers_Who_Received_At_Least_One_Tetanus_Toxoid_Tt_Injection_Urban DECIMAL(10,2),
+    
+    PP_Mothers_Who_Consumed_Ifa_For_100_Days_Or_More_Total DECIMAL(10,2),
+    PP_Mothers_Who_Consumed_Ifa_For_100_Days_Or_More_Rural DECIMAL(10,2),
+    PP_Mothers_Who_Consumed_Ifa_For_100_Days_Or_More_Urban DECIMAL(10,2),
+    
+    PP_Mothers_Who_Had_Full_Antenatal_Check_Up_Total DECIMAL(10,2),
+    PP_Mothers_Who_Had_Full_Antenatal_Check_Up_Rural DECIMAL(10,2),
+    PP_Mothers_Who_Had_Full_Antenatal_Check_Up_Urban DECIMAL(10,2),
+    
+    PP_Mothers_Who_Received_Anc_From_Govt_Source_Total DECIMAL(10,2),
+    PP_Mothers_Who_Received_Anc_From_Govt_Source_Rural DECIMAL(10,2),
+    PP_Mothers_Who_Received_Anc_From_Govt_Source_Urban DECIMAL(10,2),
+    
+    PP_Mothers_Whose_Blood_Pressure_Bp_Taken_Total DECIMAL(10,2),
+    PP_Mothers_Whose_Blood_Pressure_Bp_Taken_Rural DECIMAL(10,2),
+    PP_Mothers_Whose_Blood_Pressure_Bp_Taken_Urban DECIMAL(10,2),
+    
+    PP_Mothers_Whose_Blood_Taken_For_Hb_Total DECIMAL(10,2),
+    PP_Mothers_Whose_Blood_Taken_For_Hb_Rural DECIMAL(10,2),
+    PP_Mothers_Whose_Blood_Taken_For_Hb_Urban DECIMAL(10,2),
+    
+    PP_Mothers_Who_Underwent_Ultrasound_Total DECIMAL(10,2),
+    PP_Mothers_Who_Underwent_Ultrasound_Rural DECIMAL(10,2),
+    PP_Mothers_Who_Underwent_Ultrasound_Urban DECIMAL(10,2)
+);
+
+CREATE TABLE Delivery_Statistics (
+    State_Name VARCHAR(100) PRIMARY KEY,
+    
+    QQ_Institutional_Delivery_Total DECIMAL(10,2),
+    QQ_Institutional_Delivery_Rural DECIMAL(10,2),
+    QQ_Institutional_Delivery_Urban DECIMAL(10,2),
+    
+    QQ_Delivery_At_Government_Institution_Total DECIMAL(10,2),
+    QQ_Delivery_At_Government_Institution_Rural DECIMAL(10,2),
+    QQ_Delivery_At_Government_Institution_Urban DECIMAL(10,2),
+    
+    QQ_Delivery_At_Private_Institution_Total DECIMAL(10,2),
+    QQ_Delivery_At_Private_Institution_Rural DECIMAL(10,2),
+    QQ_Delivery_At_Private_Institution_Urban DECIMAL(10,2),
+    
+    QQ_Delivery_At_Home_Total DECIMAL(10,2),
+    QQ_Delivery_At_Home_Rural DECIMAL(10,2),
+    QQ_Delivery_At_Home_Urban DECIMAL(10,2),
+    
+    QQ_Delivery_At_Home_Conducted_By_Skilled_Health_Personnel_Total DECIMAL(10,2),
+    QQ_Delivery_At_Home_Conducted_By_Skilled_Health_Personnel_Rural DECIMAL(10,2),
+    QQ_Delivery_At_Home_Conducted_By_Skilled_Health_Personnel_Urban DECIMAL(10,2),
+    
+    QQ_Safe_Delivery_Total DECIMAL(10,2),
+    QQ_Safe_Delivery_Rural DECIMAL(10,2),
+    QQ_Safe_Delivery_Urban DECIMAL(10,2),
+    
+    QQ_Caesarean_Out_Of_Total_Delivery_Taken_Place_In_Government_Institutions_Total DECIMAL(10,2),
+    QQ_Caesarean_Out_Of_Total_Delivery_Taken_Place_In_Government_Institutions_Rural DECIMAL(10,2),
+    QQ_Caesarean_Out_Of_Total_Delivery_Taken_Place_In_Government_Institutions_Urban DECIMAL(10,2),
+    
+    QQ_Caesarean_Out_Of_Total_Delivery_Taken_Place_In_Private_Institutions_Total DECIMAL(10,2),
+    QQ_Caesarean_Out_Of_Total_Delivery_Taken_Place_In_Private_Institutions_Rural DECIMAL(10,2),
+    QQ_Caesarean_Out_Of_Total_Delivery_Taken_Place_In_Private_Institutions_Urban DECIMAL(10,2)
+);
+
+CREATE TABLE Institutional_Delivery (
+    State_Name VARCHAR(100) PRIMARY KEY,
+    
+    QQ_Institutional_Delivery_Total DECIMAL(10,2),
+    QQ_Institutional_Delivery_Rural DECIMAL(10,2),
+    QQ_Institutional_Delivery_Urban DECIMAL(10,2),
+    
+    QQ_Delivery_At_Government_Institution_Total DECIMAL(10,2),
+    QQ_Delivery_At_Government_Institution_Rural DECIMAL(10,2),
+    QQ_Delivery_At_Government_Institution_Urban DECIMAL(10,2),
+    
+    QQ_Delivery_At_Private_Institution_Total DECIMAL(10,2),
+    QQ_Delivery_At_Private_Institution_Rural DECIMAL(10,2),
+    QQ_Delivery_At_Private_Institution_Urban DECIMAL(10,2),
+    
+    QQ_Delivery_At_Home_Total DECIMAL(10,2),
+    QQ_Delivery_At_Home_Rural DECIMAL(10,2),
+    QQ_Delivery_At_Home_Urban DECIMAL(10,2),
+    
+    QQ_Delivery_At_Home_Conducted_By_Skilled_Health_Personnel_Total DECIMAL(10,2),
+    QQ_Delivery_At_Home_Conducted_By_Skilled_Health_Personnel_Rural DECIMAL(10,2),
+    QQ_Delivery_At_Home_Conducted_By_Skilled_Health_Personnel_Urban DECIMAL(10,2),
+    
+    QQ_Safe_Delivery_Total DECIMAL(10,2),
+    QQ_Safe_Delivery_Rural DECIMAL(10,2),
+    QQ_Safe_Delivery_Urban DECIMAL(10,2),
+    
+    QQ_Caesarean_Out_Of_Total_Delivery_Taken_Place_In_Government_Institutions_Total DECIMAL(10,2),
+    QQ_Caesarean_Out_Of_Total_Delivery_Taken_Place_In_Government_Institutions_Rural DECIMAL(10,2),
+    QQ_Caesarean_Out_Of_Total_Delivery_Taken_Place_In_Government_Institutions_Urban DECIMAL(10,2),
+    
+    QQ_Caesarean_Out_Of_Total_Delivery_Taken_Place_In_Private_Institutions_Total DECIMAL(10,2),
+    QQ_Caesarean_Out_Of_Total_Delivery_Taken_Place_In_Private_Institutions_Rural DECIMAL(10,2),
+    QQ_Caesarean_Out_Of_Total_Delivery_Taken_Place_In_Private_Institutions_Urban DECIMAL(10,2)
+);
+
+CREATE TABLE Postnatal_Care (
+    State_Name VARCHAR(100) PRIMARY KEY,
+    
+    RR_Less_Than_24_Hrs_Stay_In_Institution_After_Delivery_Total DECIMAL(10,2),
+    RR_Less_Than_24_Hrs_Stay_In_Institution_After_Delivery_Rural DECIMAL(10,2),
+    RR_Less_Than_24_Hrs_Stay_In_Institution_After_Delivery_Urban DECIMAL(10,2),
+    
+    RR_Mothers_Who_Received_Post_Natal_Check_Up_Within_48_Hrs_Of_Delivery_Total DECIMAL(10,2),
+    RR_Mothers_Who_Received_Post_Natal_Check_Up_Within_48_Hrs_Of_Delivery_Rural DECIMAL(10,2),
+    RR_Mothers_Who_Received_Post_Natal_Check_Up_Within_48_Hrs_Of_Delivery_Urban DECIMAL(10,2),
+    
+    RR_Mothers_Who_Received_Post_Natal_Check_Up_Within_1_Week_Of_Delivery_Total DECIMAL(10,2),
+    RR_Mothers_Who_Received_Post_Natal_Check_Up_Within_1_Week_Of_Delivery_Rural DECIMAL(10,2),
+    RR_Mothers_Who_Received_Post_Natal_Check_Up_Within_1_Week_Of_Delivery_Urban DECIMAL(10,2),
+    
+    RR_Mothers_Who_Did_Not_Receive_Any_Post_Natal_Check_Up_Total DECIMAL(10,2),
+    RR_Mothers_Who_Did_Not_Receive_Any_Post_Natal_Check_Up_Rural DECIMAL(10,2),
+    RR_Mothers_Who_Did_Not_Receive_Any_Post_Natal_Check_Up_Urban DECIMAL(10,2),
+    
+    RR_New_Borns_Who_Were_Checked_Up_Within_24_Hrs_Of_Birth_Total DECIMAL(10,2),
+    RR_New_Borns_Who_Were_Checked_Up_Within_24_Hrs_Of_Birth_Rural DECIMAL(10,2),
+    RR_New_Borns_Who_Were_Checked_Up_Within_24_Hrs_Of_Birth_Urban DECIMAL(10,2)
+);
+
+CREATE TABLE Postnatal_Care (
+    State_Name VARCHAR(100) PRIMARY KEY,
+    
+    RR_Less_Than_24_Hrs_Stay_In_Institution_After_Delivery_Total DECIMAL(10,2),
+    RR_Less_Than_24_Hrs_Stay_In_Institution_After_Delivery_Rural DECIMAL(10,2),
+    RR_Less_Than_24_Hrs_Stay_In_Institution_After_Delivery_Urban DECIMAL(10,2),
+    
+    RR_Mothers_Who_Received_Post_Natal_Check_Up_Within_48_Hrs_Of_Delivery_Total DECIMAL(10,2),
+    RR_Mothers_Who_Received_Post_Natal_Check_Up_Within_48_Hrs_Of_Delivery_Rural DECIMAL(10,2),
+    RR_Mothers_Who_Received_Post_Natal_Check_Up_Within_48_Hrs_Of_Delivery_Urban DECIMAL(10,2),
+    
+    RR_Mothers_Who_Received_Post_Natal_Check_Up_Within_1_Week_Of_Delivery_Total DECIMAL(10,2),
+    RR_Mothers_Who_Received_Post_Natal_Check_Up_Within_1_Week_Of_Delivery_Rural DECIMAL(10,2),
+    RR_Mothers_Who_Received_Post_Natal_Check_Up_Within_1_Week_Of_Delivery_Urban DECIMAL(10,2),
+    
+    RR_Mothers_Who_Did_Not_Receive_Any_Post_Natal_Check_Up_Total DECIMAL(10,2),
+    RR_Mothers_Who_Did_Not_Receive_Any_Post_Natal_Check_Up_Rural DECIMAL(10,2),
+    RR_Mothers_Who_Did_Not_Receive_Any_Post_Natal_Check_Up_Urban DECIMAL(10,2),
+    
+    RR_New_Borns_Who_Were_Checked_Up_Within_24_Hrs_Of_Birth_Total DECIMAL(10,2),
+    RR_New_Borns_Who_Were_Checked_Up_Within_24_Hrs_Of_Birth_Rural DECIMAL(10,2),
+    RR_New_Borns_Who_Were_Checked_Up_Within_24_Hrs_Of_Birth_Urban DECIMAL(10,2)
+);
+
+CREATE TABLE JSY_Financial_Assistance (
+    State_Name VARCHAR(100) PRIMARY KEY,
+    
+    SS_Mothers_Who_Availed_Financial_Assistance_For_Delivery_Under_Jsy_Total DECIMAL(10,2),
+    SS_Mothers_Who_Availed_Financial_Assistance_For_Delivery_Under_Jsy_Rural DECIMAL(10,2),
+    SS_Mothers_Who_Availed_Financial_Assistance_For_Delivery_Under_Jsy_Urban DECIMAL(10,2),
+    
+    SS_Mothers_Who_Availed_Financial_Assistance_For_Institutional_Delivery_Under_Jsy_Total DECIMAL(10,2),
+    SS_Mothers_Who_Availed_Financial_Assistance_For_Institutional_Delivery_Under_Jsy_Rural DECIMAL(10,2),
+    SS_Mothers_Who_Availed_Financial_Assistance_For_Institutional_Delivery_Under_Jsy_Urban DECIMAL(10,2),
+    
+    SS_Mothers_Who_Availed_Financial_Assistance_For_Government_Institutional_Delivery_Under_Jsy_Total DECIMAL(10,2),
+    SS_Mothers_Who_Availed_Financial_Assistance_For_Government_Institutional_Delivery_Under_Jsy_Rural DECIMAL(10,2),
+    SS_Mothers_Who_Availed_Financial_Assistance_For_Government_Institutional_Delivery_Under_Jsy_Urban DECIMAL(10,2)
+);
+
+CREATE TABLE JSY_Assistance (
+    State_Name VARCHAR(100) PRIMARY KEY,
+    
+    SS_Mothers_Who_Availed_Financial_Assistance_For_Delivery_Under_Jsy_Total DECIMAL(10,2),
+    SS_Mothers_Who_Availed_Financial_Assistance_For_Delivery_Under_Jsy_Rural DECIMAL(10,2),
+    SS_Mothers_Who_Availed_Financial_Assistance_For_Delivery_Under_Jsy_Urban DECIMAL(10,2),
+    
+    SS_Mothers_Who_Availed_Financial_Assistance_For_Institutional_Delivery_Under_Jsy_Total DECIMAL(10,2),
+    SS_Mothers_Who_Availed_Financial_Assistance_For_Institutional_Delivery_Under_Jsy_Rural DECIMAL(10,2),
+    SS_Mothers_Who_Availed_Financial_Assistance_For_Institutional_Delivery_Under_Jsy_Urban DECIMAL(10,2),
+    
+    SS_Mothers_Who_Availed_Financial_Assistance_For_Government_Institutional_Delivery_Under_Jsy_Total DECIMAL(10,2),
+    SS_Mothers_Who_Availed_Financial_Assistance_For_Government_Institutional_Delivery_Under_Jsy_Rural DECIMAL(10,2),
+    SS_Mothers_Who_Availed_Financial_Assistance_For_Government_Institutional_Delivery_Under_Jsy_Urban DECIMAL(10,2)
+);
+
+CREATE TABLE Child_Immunization (
+    State_Name VARCHAR(100) PRIMARY KEY,
+    
+    TT_Children_Aged_12_23_Months_Having_Immunization_Card_Total DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Having_Immunization_Card_Rural DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Having_Immunization_Card_Urban DECIMAL(10,2),
+    
+    TT_Children_Aged_12_23_Months_Who_Have_Received_Bcg_Total DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Who_Have_Received_Bcg_Rural DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Who_Have_Received_Bcg_Urban DECIMAL(10,2),
+    
+    TT_Children_Aged_12_23_Months_Who_Have_Received_3_Doses_Of_Polio_Vaccine_Total DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Who_Have_Received_3_Doses_Of_Polio_Vaccine_Rural DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Who_Have_Received_3_Doses_Of_Polio_Vaccine_Urban DECIMAL(10,2),
+    
+    TT_Children_Aged_12_23_Months_Who_Have_Received_3_Doses_Of_Dpt_Vaccine_Total DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Who_Have_Received_3_Doses_Of_Dpt_Vaccine_Rural DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Who_Have_Received_3_Doses_Of_Dpt_Vaccine_Urban DECIMAL(10,2),
+    
+    TT_Children_Aged_12_23_Months_Who_Have_Received_Measles_Vaccine_Total DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Who_Have_Received_Measles_Vaccine_Rural DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Who_Have_Received_Measles_Vaccine_Urban DECIMAL(10,2),
+    
+    TT_Children_Aged_12_23_Months_Fully_Immunized_Total DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Fully_Immunized_Rural DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Fully_Immunized_Urban DECIMAL(10,2),
+    
+    TT_Children_Who_Have_Received_Polio_Dose_At_Birth_Total DECIMAL(10,2),
+    TT_Children_Who_Have_Received_Polio_Dose_At_Birth_Rural DECIMAL(10,2),
+    TT_Children_Who_Have_Received_Polio_Dose_At_Birth_Urban DECIMAL(10,2),
+    
+    TT_Children_Who_Did_Not_Receive_Any_Vaccination_Total DECIMAL(10,2),
+    TT_Children_Who_Did_Not_Receive_Any_Vaccination_Rural DECIMAL(10,2),
+    TT_Children_Who_Did_Not_Receive_Any_Vaccination_Urban DECIMAL(10,2),
+    
+    TT_Children_Aged_6_35_Months_Who_Received_At_Least_One_Vitamin_A_Dose_During_Last_Six_Months_Total DECIMAL(10,2),
+    TT_Children_Aged_6_35_Months_Who_Received_At_Least_One_Vitamin_A_Dose_During_Last_Six_Months_Rural DECIMAL(10,2),
+    TT_Children_Aged_6_35_Months_Who_Received_At_Least_One_Vitamin_A_Dose_During_Last_Six_Months_Urban DECIMAL(10,2),
+    
+    TT_Children_Aged_6_35_Months_Who_Received_Ifa_Tablets_Syrup_During_Last_3_Months_Total DECIMAL(10,2),
+    TT_Children_Aged_6_35_Months_Who_Received_Ifa_Tablets_Syrup_During_Last_3_Months_Rural DECIMAL(10,2),
+    TT_Children_Aged_6_35_Months_Who_Received_Ifa_Tablets_Syrup_During_Last_3_Months_Urban DECIMAL(10,2),
+    
+    TT_Children_Whose_Birth_Weight_Was_Taken_Total DECIMAL(10,2),
+    TT_Children_Whose_Birth_Weight_Was_Taken_Rural DECIMAL(10,2),
+    TT_Children_Whose_Birth_Weight_Was_Taken_Urban DECIMAL(10,2),
+    
+    TT_Children_With_Birth_Weight_Less_Than_2_5_Kg_Total DECIMAL(10,2),
+    TT_Children_With_Birth_Weight_Less_Than_2_5_Kg_Rural DECIMAL(10,2),
+    TT_Children_With_Birth_Weight_Less_Than_2_5_Kg_Urban DECIMAL(10,2)
+);
+
+CREATE TABLE Child_Immunization (
+    State_Name VARCHAR(100) PRIMARY KEY,
+
+    TT_Children_Aged_12_23_Months_Having_Immunization_Card_Total DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Having_Immunization_Card_Rural DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Having_Immunization_Card_Urban DECIMAL(10,2),
+
+    TT_Children_Aged_12_23_Months_Who_Have_Received_Bcg_Total DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Who_Have_Received_Bcg_Rural DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Who_Have_Received_Bcg_Urban DECIMAL(10,2),
+
+    TT_Children_Aged_12_23_Months_Who_Have_Received_3_Doses_Of_Polio_Vaccine_Total DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Who_Have_Received_3_Doses_Of_Polio_Vaccine_Rural DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Who_Have_Received_3_Doses_Of_Polio_Vaccine_Urban DECIMAL(10,2),
+
+    TT_Children_Aged_12_23_Months_Who_Have_Received_3_Doses_Of_Dpt_Vaccine_Total DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Who_Have_Received_3_Doses_Of_Dpt_Vaccine_Rural DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Who_Have_Received_3_Doses_Of_Dpt_Vaccine_Urban DECIMAL(10,2),
+
+    TT_Children_Aged_12_23_Months_Who_Have_Received_Measles_Vaccine_Total DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Who_Have_Received_Measles_Vaccine_Rural DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Who_Have_Received_Measles_Vaccine_Urban DECIMAL(10,2),
+
+    TT_Children_Aged_12_23_Months_Fully_Immunized_Total DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Fully_Immunized_Rural DECIMAL(10,2),
+    TT_Children_Aged_12_23_Months_Fully_Immunized_Urban DECIMAL(10,2),
+
+    TT_Children_Who_Have_Received_Polio_Dose_At_Birth_Total DECIMAL(10,2),
+    TT_Children_Who_Have_Received_Polio_Dose_At_Birth_Rural DECIMAL(10,2),
+    TT_Children_Who_Have_Received_Polio_Dose_At_Birth_Urban DECIMAL(10,2),
+
+    TT_Children_Who_Did_Not_Receive_Any_Vaccination_Total DECIMAL(10,2),
+    TT_Children_Who_Did_Not_Receive_Any_Vaccination_Rural DECIMAL(10,2),
+    TT_Children_Who_Did_Not_Receive_Any_Vaccination_Urban DECIMAL(10,2),
+
+    TT_Children_Aged_6_35_Months_Who_Received_At_Least_One_Vitamin_A_Dose_During_Last_Six_Months_Total DECIMAL(10,2),
+    TT_Children_Aged_6_35_Months_Who_Received_At_Least_One_Vitamin_A_Dose_During_Last_Six_Months_Rural DECIMAL(10,2),
+    TT_Children_Aged_6_35_Months_Who_Received_At_Least_One_Vitamin_A_Dose_During_Last_Six_Months_Urban DECIMAL(10,2),
+
+    TT_Children_Aged_6_35_Months_Who_Received_Ifa_Tablets_Syrup_During_Last_3_Months_Total DECIMAL(10,2),
+    TT_Children_Aged_6_35_Months_Who_Received_Ifa_Tablets_Syrup_During_Last_3_Months_Rural DECIMAL(10,2),
+    TT_Children_Aged_6_35_Months_Who_Received_Ifa_Tablets_Syrup_During_Last_3_Months_Urban DECIMAL(10,2),
+
+    TT_Children_Whose_Birth_Weight_Was_Taken_Total DECIMAL(10,2),
+    TT_Children_Whose_Birth_Weight_Was_Taken_Rural DECIMAL(10,2),
+    TT_Children_Whose_Birth_Weight_Was_Taken_Urban DECIMAL(10,2),
+
+    TT_Children_With_Birth_Weight_Less_Than_2_5_Kg_Total DECIMAL(10,2),
+    TT_Children_With_Birth_Weight_Less_Than_2_5_Kg_Rural DECIMAL(10,2),
+    TT_Children_With_Birth_Weight_Less_Than_2_5_Kg_Urban DECIMAL(10,2)
+);
+
+CREATE TABLE Child_Health_Illnesses (
+    State_Name VARCHAR(100),
+    State_District_Name VARCHAR(100),
+
+    UU_Children_Suffering_From_Diarrhoea_Total DECIMAL(10,2),
+    UU_Children_Suffering_From_Diarrhoea_Rural DECIMAL(10,2),
+    UU_Children_Suffering_From_Diarrhoea_Urban DECIMAL(10,2),
+
+    UU_Children_Suffering_From_Diarrhoea_Who_Received_Haf_Ors_Ort_Total DECIMAL(10,2),
+    UU_Children_Suffering_From_Diarrhoea_Who_Received_Haf_Ors_Ort_Rural DECIMAL(10,2),
+    UU_Children_Suffering_From_Diarrhoea_Who_Received_Haf_Ors_Ort_Urban DECIMAL(10,2),
+
+    UU_Children_Suffering_From_Acute_Respiratory_Infection_Total DECIMAL(10,2),
+    UU_Children_Suffering_From_Acute_Respiratory_Infection_Rural DECIMAL(10,2),
+    UU_Children_Suffering_From_Acute_Respiratory_Infection_Urban DECIMAL(10,2),
+
+    UU_Children_Suffering_From_Acute_Respiratory_Infection_Who_Sought_Treatment_Total DECIMAL(10,2),
+    UU_Children_Suffering_From_Acute_Respiratory_Infection_Who_Sought_Treatment_Rural DECIMAL(10,2),
+    UU_Children_Suffering_From_Acute_Respiratory_Infection_Who_Sought_Treatment_Urban DECIMAL(10,2),
+
+    UU_Children_Suffering_From_Fever_Total DECIMAL(10,2),
+    UU_Children_Suffering_From_Fever_Rural DECIMAL(10,2),
+    UU_Children_Suffering_From_Fever_Urban DECIMAL(10,2),
+
+    UU_Children_Suffering_From_Fever_Who_Sought_Treatment_Total DECIMAL(10,2),
+    UU_Children_Suffering_From_Fever_Who_Sought_Treatment_Rural DECIMAL(10,2),
+    UU_Children_Suffering_From_Fever_Who_Sought_Treatment_Urban DECIMAL(10,2),
+
+    PRIMARY KEY (State_Name, State_District_Name)
+);
+
+CREATE TABLE Child_Health_Status (
+    State_Name VARCHAR(100) NOT NULL,
+    
+    UU_Children_Suffering_From_Diarrhoea_Total DECIMAL(10,2),
+    UU_Children_Suffering_From_Diarrhoea_Rural DECIMAL(10,2),
+    UU_Children_Suffering_From_Diarrhoea_Urban DECIMAL(10,2),
+
+    UU_Children_Suffering_From_Diarrhoea_Who_Received_Haf_Ors_Ort_Total DECIMAL(10,2),
+    UU_Children_Suffering_From_Diarrhoea_Who_Received_Haf_Ors_Ort_Rural DECIMAL(10,2),
+    UU_Children_Suffering_From_Diarrhoea_Who_Received_Haf_Ors_Ort_Urban DECIMAL(10,2),
+
+    UU_Children_Suffering_From_Acute_Respiratory_Infection_Total DECIMAL(10,2),
+    UU_Children_Suffering_From_Acute_Respiratory_Infection_Rural DECIMAL(10,2),
+    UU_Children_Suffering_From_Acute_Respiratory_Infection_Urban DECIMAL(10,2),
+
+    UU_Children_Suffering_From_Acute_Respiratory_Infection_Who_Sought_Treatment_Total DECIMAL(10,2),
+    UU_Children_Suffering_From_Acute_Respiratory_Infection_Who_Sought_Treatment_Rural DECIMAL(10,2),
+    UU_Children_Suffering_From_Acute_Respiratory_Infection_Who_Sought_Treatment_Urban DECIMAL(10,2),
+
+    UU_Children_Suffering_From_Fever_Total DECIMAL(10,2),
+    UU_Children_Suffering_From_Fever_Rural DECIMAL(10,2),
+    UU_Children_Suffering_From_Fever_Urban DECIMAL(10,2),
+
+    UU_Children_Suffering_From_Fever_Who_Sought_Treatment_Total DECIMAL(10,2),
+    UU_Children_Suffering_From_Fever_Who_Sought_Treatment_Rural DECIMAL(10,2),
+    UU_Children_Suffering_From_Fever_Who_Sought_Treatment_Urban DECIMAL(10,2),
+
+    PRIMARY KEY (State_Name)
+);
+
+State_Name	State_District_Name	VV_Children_Breastfed_Within_One_Hour_Of_Birth_Total	VV_Children_Breastfed_Within_One_Hour_Of_Birth_Rural	VV_Children_Breastfed_Within_One_Hour_Of_Birth_Urban	VV_Children_Aged_6_35_Months_Exclusively_Breastfed_For_At_Least_Six_Months_Total	VV_Children_Aged_6_35_Months_Exclusively_Breastfed_For_At_Least_Six_Months_Rural	VV_Children_Aged_6_35_Months_Exclusively_Breastfed_For_At_Least_Six_Months_Urban	VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Water_Total	VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Water_Rural	VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Water_Urban	VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Animal_Formula_Milk_Total	VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Animal_Formula_Milk_Rural	VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Animal_Formula_Milk_Urban	VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Semi_Solid_Mashed_Food_Total	VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Semi_Solid_Mashed_Food_Rural	VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Semi_Solid_Mashed_Food_Urban	VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Solid_Adult_Food_Total	VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Solid_Adult_Food_Rural	VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Solid_Adult_Food_Urban	VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Vegetables_Fruits_Total	VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Vegetables_Fruits_Rural	VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Vegetables_Fruits_Urban	VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Water_Total	VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Water_Rural	VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Water_Urban	VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Animal_Formula_Milk_Total	VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Animal_Formula_Milk_Rural	VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Animal_Formula_Milk_Urban	VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Semi_Solid_Mashed_Food_Total	VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Semi_Solid_Mashed_Food_Rural	VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Semi_Solid_Mashed_Food_Urban	VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Solid_Adult_Food_Total	VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Solid_Adult_Food_Rural	VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Solid_Adult_Food_Urban	VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Vegetables_Fruits_Total	VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Vegetables_Fruits_Rural	VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Vegetables_Fruits_Urban
+
+
+CREATE TABLE Child_Feeding_Practices (
+    State_Name VARCHAR(100) NOT NULL,
+    
+    VV_Children_Breastfed_Within_One_Hour_Of_Birth_Total DECIMAL(10,2),
+    VV_Children_Breastfed_Within_One_Hour_Of_Birth_Rural DECIMAL(10,2),
+    VV_Children_Breastfed_Within_One_Hour_Of_Birth_Urban DECIMAL(10,2),
+
+    VV_Children_Aged_6_35_Months_Exclusively_Breastfed_For_At_Least_Six_Months_Total DECIMAL(10,2),
+    VV_Children_Aged_6_35_Months_Exclusively_Breastfed_For_At_Least_Six_Months_Rural DECIMAL(10,2),
+    VV_Children_Aged_6_35_Months_Exclusively_Breastfed_For_At_Least_Six_Months_Urban DECIMAL(10,2),
+
+    VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Water_Total DECIMAL(10,2),
+    VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Water_Rural DECIMAL(10,2),
+    VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Water_Urban DECIMAL(10,2),
+
+    VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Animal_Formula_Milk_Total DECIMAL(10,2),
+    VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Animal_Formula_Milk_Rural DECIMAL(10,2),
+    VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Animal_Formula_Milk_Urban DECIMAL(10,2),
+
+    VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Semi_Solid_Mashed_Food_Total DECIMAL(10,2),
+    VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Semi_Solid_Mashed_Food_Rural DECIMAL(10,2),
+    VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Semi_Solid_Mashed_Food_Urban DECIMAL(10,2),
+
+    VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Solid_Adult_Food_Total DECIMAL(10,2),
+    VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Solid_Adult_Food_Rural DECIMAL(10,2),
+    VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Solid_Adult_Food_Urban DECIMAL(10,2),
+
+    VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Vegetables_Fruits_Total DECIMAL(10,2),
+    VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Vegetables_Fruits_Rural DECIMAL(10,2),
+    VV_Children_Who_Received_Foods_Other_Than_Breast_Milk_During_First_6_Months_Vegetables_Fruits_Urban DECIMAL(10,2),
+
+    VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Water_Total DECIMAL(10,2),
+    VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Water_Rural DECIMAL(10,2),
+    VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Water_Urban DECIMAL(10,2),
+
+    VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Animal_Formula_Milk_Total DECIMAL(10,2),
+    VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Animal_Formula_Milk_Rural DECIMAL(10,2),
+    VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Animal_Formula_Milk_Urban DECIMAL(10,2),
+
+    VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Semi_Solid_Mashed_Food_Total DECIMAL(10,2),
+    VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Semi_Solid_Mashed_Food_Rural DECIMAL(10,2),
+    VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Semi_Solid_Mashed_Food_Urban DECIMAL(10,2),
+
+    VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Solid_Adult_Food_Total DECIMAL(10,2),
+    VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Solid_Adult_Food_Rural DECIMAL(10,2),
+    VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Solid_Adult_Food_Urban DECIMAL(10,2),
+
+    VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Vegetables_Fruits_Total DECIMAL(10,2),
+    VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Vegetables_Fruits_Rural DECIMAL(10,2),
+    VV_Average_Month_By_Which_Children_Received_Foods_Other_Than_Breast_Milk_Vegetables_Fruits_Urban DECIMAL(10,2),
+
+    PRIMARY KEY (State_Name)
+);
+
+CREATE TABLE Birth_Registration (
+    State_Name VARCHAR(100) NOT NULL,
+    State_District_Name VARCHAR(100),
+
+    WW_Birth_Registered_Total DECIMAL(10,2),
+    WW_Birth_Registered_Rural DECIMAL(10,2),
+    WW_Birth_Registered_Urban DECIMAL(10,2),
+
+    WW_Children_Whose_Birth_Was_Registered_And_Received_Birth_Certificate_Total DECIMAL(10,2),
+    WW_Children_Whose_Birth_Was_Registered_And_Received_Birth_Certificate_Rural DECIMAL(10,2),
+    WW_Children_Whose_Birth_Was_Registered_And_Received_Birth_Certificate_Urban DECIMAL(10,2),
+
+    PRIMARY KEY (State_Name, State_District_Name)
+);
+
+CREATE TABLE Birth_Registration_State (
+    State_Name VARCHAR(100) PRIMARY KEY,
+
+    WW_Birth_Registered_Total DECIMAL(10,2),
+    WW_Birth_Registered_Rural DECIMAL(10,2),
+    WW_Birth_Registered_Urban DECIMAL(10,2),
+
+    WW_Children_Whose_Birth_Was_Registered_And_Received_Birth_Certificate_Total DECIMAL(10,2),
+    WW_Children_Whose_Birth_Was_Registered_And_Received_Birth_Certificate_Rural DECIMAL(10,2),
+    WW_Children_Whose_Birth_Was_Registered_And_Received_Birth_Certificate_Urban DECIMAL(10,2)
+);
+
+CREATE TABLE Women_Health_Awareness (
+    State_Name VARCHAR(100),
+    State_District_Name VARCHAR(100),
+
+    XX_Women_Who_Are_Aware_Of_Hiv_Aids_Total DECIMAL(10,2),
+    XX_Women_Who_Are_Aware_Of_Hiv_Aids_Rural DECIMAL(10,2),
+    XX_Women_Who_Are_Aware_Of_Hiv_Aids_Urban DECIMAL(10,2),
+
+    XX_Women_Who_Are_Aware_Of_Rti_Sti_Total DECIMAL(10,2),
+    XX_Women_Who_Are_Aware_Of_Rti_Sti_Rural DECIMAL(10,2),
+    XX_Women_Who_Are_Aware_Of_Rti_Sti_Urban DECIMAL(10,2),
+
+    XX_Women_Who_Are_Aware_Of_Haf_Ors_Ort_Zinc_Total DECIMAL(10,2),
+    XX_Women_Who_Are_Aware_Of_Haf_Ors_Ort_Zinc_Rural DECIMAL(10,2),
+    XX_Women_Who_Are_Aware_Of_Haf_Ors_Ort_Zinc_Urban DECIMAL(10,2),
+
+    XX_Women_Who_Are_Aware_Of_Danger_Signs_Of_Ari_Pneumonia_Total DECIMAL(10,2),
+    XX_Women_Who_Are_Aware_Of_Danger_Signs_Of_Ari_Pneumonia_Rural DECIMAL(10,2),
+    XX_Women_Who_Are_Aware_Of_Danger_Signs_Of_Ari_Pneumonia_Urban DECIMAL(10,2)
+);
+
+CREATE TABLE Women_Health_Awareness_Summary (
+    State_Name VARCHAR(100),
+
+    XX_Women_Who_Are_Aware_Of_Hiv_Aids_Total DECIMAL(10,2),
+    XX_Women_Who_Are_Aware_Of_Hiv_Aids_Rural DECIMAL(10,2),
+    XX_Women_Who_Are_Aware_Of_Hiv_Aids_Urban DECIMAL(10,2),
+
+    XX_Women_Who_Are_Aware_Of_Rti_Sti_Total DECIMAL(10,2),
+    XX_Women_Who_Are_Aware_Of_Rti_Sti_Rural DECIMAL(10,2),
+    XX_Women_Who_Are_Aware_Of_Rti_Sti_Urban DECIMAL(10,2),
+
+    XX_Women_Who_Are_Aware_Of_Haf_Ors_Ort_Zinc_Total DECIMAL(10,2),
+    XX_Women_Who_Are_Aware_Of_Haf_Ors_Ort_Zinc_Rural DECIMAL(10,2),
+    XX_Women_Who_Are_Aware_Of_Haf_Ors_Ort_Zinc_Urban DECIMAL(10,2),
+
+    XX_Women_Who_Are_Aware_Of_Danger_Signs_Of_Ari_Pneumonia_Total DECIMAL(10,2),
+    XX_Women_Who_Are_Aware_Of_Danger_Signs_Of_Ari_Pneumonia_Rural DECIMAL(10,2),
+    XX_Women_Who_Are_Aware_Of_Danger_Signs_Of_Ari_Pneumonia_Urban DECIMAL(10,2)
+);
+
+CREATE TABLE Mortality_Statistics (
+    State_Name VARCHAR(100),
+
+    YY_Crude_Death_Rate_Cdr_Total_Person DECIMAL(10,2),
+    YY_Crude_Death_Rate_Cdr_Total_Male DECIMAL(10,2),
+    YY_Crude_Death_Rate_Cdr_Total_Female DECIMAL(10,2),
+    YY_Crude_Death_Rate_Cdr_Rural_Person DECIMAL(10,2),
+    YY_Crude_Death_Rate_Cdr_Rural_Male DECIMAL(10,2),
+    YY_Crude_Death_Rate_Cdr_Rural_Female DECIMAL(10,2),
+    YY_Crude_Death_Rate_Cdr_Urban_Person DECIMAL(10,2),
+    YY_Crude_Death_Rate_Cdr_Urban_Male DECIMAL(10,2),
+    YY_Crude_Death_Rate_Cdr_Urban_Female DECIMAL(10,2),
+
+    YY_Infant_Mortality_Rate_Imr_Total_Person DECIMAL(10,2),
+    YY_Infant_Mortality_Rate_Imr_Total_Male DECIMAL(10,2),
+    YY_Infant_Mortality_Rate_Imr_Total_Female DECIMAL(10,2),
+    YY_Infant_Mortality_Rate_Imr_Rural_Person DECIMAL(10,2),
+    YY_Infant_Mortality_Rate_Imr_Rural_Male DECIMAL(10,2),
+    YY_Infant_Mortality_Rate_Imr_Rural_Female DECIMAL(10,2),
+    YY_Infant_Mortality_Rate_Imr_Urban_Person DECIMAL(10,2),
+    YY_Infant_Mortality_Rate_Imr_Urban_Male DECIMAL(10,2),
+    YY_Infant_Mortality_Rate_Imr_Urban_Female DECIMAL(10,2),
+
+    YY_Neo_Natal_Mortality_Rate_Total DECIMAL(10,2),
+    YY_Neo_Natal_Mortality_Rate_Rural DECIMAL(10,2),
+    YY_Neo_Natal_Mortality_Rate_Urban DECIMAL(10,2),
+
+    YY_Post_Neo_Natal_Mortality_Rate_Total DECIMAL(10,2),
+    YY_Post_Neo_Natal_Mortality_Rate_Rural DECIMAL(10,2),
+    YY_Post_Neo_Natal_Mortality_Rate_Urban DECIMAL(10,2),
+
+    YY_Under_Five_Mortality_Rate_U5MR_Total_Person DECIMAL(10,2),
+    YY_Under_Five_Mortality_Rate_U5MR_Total_Male DECIMAL(10,2),
+    YY_Under_Five_Mortality_Rate_U5MR_Total_Female DECIMAL(10,2),
+    YY_Under_Five_Mortality_Rate_U5MR_Rural_Person DECIMAL(10,2),
+    YY_Under_Five_Mortality_Rate_U5MR_Rural_Male DECIMAL(10,2),
+    YY_Under_Five_Mortality_Rate_U5MR_Rural_Female DECIMAL(10,2),
+    YY_Under_Five_Mortality_Rate_U5MR_Urban_Person DECIMAL(10,2),
+    YY_Under_Five_Mortality_Rate_U5MR_Urban_Male DECIMAL(10,2),
+    YY_Under_Five_Mortality_Rate_U5MR_Urban_Female DECIMAL(10,2)
+);
+
+CREATE TABLE Mortality_Stats (
+    State_Name VARCHAR(100) PRIMARY KEY,
+
+    -- Crude Death Rate
+    YY_Crude_Death_Rate_Cdr_Total_Person DECIMAL(5,2),
+    YY_Crude_Death_Rate_Cdr_Total_Male DECIMAL(5,2),
+    YY_Crude_Death_Rate_Cdr_Total_Female DECIMAL(5,2),
+    YY_Crude_Death_Rate_Cdr_Rural_Person DECIMAL(5,2),
+    YY_Crude_Death_Rate_Cdr_Rural_Male DECIMAL(5,2),
+    YY_Crude_Death_Rate_Cdr_Rural_Female DECIMAL(5,2),
+    YY_Crude_Death_Rate_Cdr_Urban_Person DECIMAL(5,2),
+    YY_Crude_Death_Rate_Cdr_Urban_Male DECIMAL(5,2),
+    YY_Crude_Death_Rate_Cdr_Urban_Female DECIMAL(5,2),
+
+    -- Infant Mortality Rate
+    YY_Infant_Mortality_Rate_Imr_Total_Person DECIMAL(5,2),
+    YY_Infant_Mortality_Rate_Imr_Total_Male DECIMAL(5,2),
+    YY_Infant_Mortality_Rate_Imr_Total_Female DECIMAL(5,2),
+    YY_Infant_Mortality_Rate_Imr_Rural_Person DECIMAL(5,2),
+    YY_Infant_Mortality_Rate_Imr_Rural_Male DECIMAL(5,2),
+    YY_Infant_Mortality_Rate_Imr_Rural_Female DECIMAL(5,2),
+    YY_Infant_Mortality_Rate_Imr_Urban_Person DECIMAL(5,2),
+    YY_Infant_Mortality_Rate_Imr_Urban_Male DECIMAL(5,2),
+    YY_Infant_Mortality_Rate_Imr_Urban_Female DECIMAL(5,2),
+
+    -- Neo-natal Mortality Rate
+    YY_Neo_Natal_Mortality_Rate_Total DECIMAL(5,2),
+    YY_Neo_Natal_Mortality_Rate_Rural DECIMAL(5,2),
+    YY_Neo_Natal_Mortality_Rate_Urban DECIMAL(5,2),
+
+    -- Post Neo-natal Mortality Rate
+    YY_Post_Neo_Natal_Mortality_Rate_Total DECIMAL(5,2),
+    YY_Post_Neo_Natal_Mortality_Rate_Rural DECIMAL(5,2),
+    YY_Post_Neo_Natal_Mortality_Rate_Urban DECIMAL(5,2),
+
+    -- Under-Five Mortality Rate
+    YY_Under_Five_Mortality_Rate_U5MR_Total_Person DECIMAL(5,2),
+    YY_Under_Five_Mortality_Rate_U5MR_Total_Male DECIMAL(5,2),
+    YY_Under_Five_Mortality_Rate_U5MR_Total_Female DECIMAL(5,2),
+    YY_Under_Five_Mortality_Rate_U5MR_Rural_Person DECIMAL(5,2),
+    YY_Under_Five_Mortality_Rate_U5MR_Rural_Male DECIMAL(5,2),
+    YY_Under_Five_Mortality_Rate_U5MR_Rural_Female DECIMAL(5,2),
+    YY_Under_Five_Mortality_Rate_U5MR_Urban_Person DECIMAL(5,2),
+    YY_Under_Five_Mortality_Rate_U5MR_Urban_Male DECIMAL(5,2),
+    YY_Under_Five_Mortality_Rate_U5MR_Urban_Female DECIMAL(5,2)
+);
+
+CREATE TABLE Vital_Stats_Confidence_Intervals (
+    State_Name VARCHAR(100),
+    State_District_Name VARCHAR(100),
+
+    -- Crude Birth Rate (CBR)
+    ZZ_Crude_Birth_Rate_Total_Lower_Limit DECIMAL(5,2),
+    ZZ_Crude_Birth_Rate_Total_Upper_Limit DECIMAL(5,2),
+    ZZ_Crude_Birth_Rate_Rural_Lower_Limit DECIMAL(5,2),
+    ZZ_Crude_Birth_Rate_Rural_Upper_Limit DECIMAL(5,2),
+    ZZ_Crude_Birth_Rate_Urban_Lower_Limit DECIMAL(5,2),
+    ZZ_Crude_Birth_Rate_Urban_Upper_Limit DECIMAL(5,2),
+
+    -- Crude Death Rate (CDR)
+    ZZ_Crude_Death_Rate_Total_Lower_Limit DECIMAL(5,2),
+    ZZ_Crude_Death_Rate_Total_Upper_Limit DECIMAL(5,2),
+    ZZ_Crude_Death_Rate_Rural_Lower_Limit DECIMAL(5,2),
+    ZZ_Crude_Death_Rate_Rural_Upper_Limit DECIMAL(5,2),
+    ZZ_Crude_Death_Rate_Urban_Lower_Limit DECIMAL(5,2),
+    ZZ_Crude_Death_Rate_Urban_Upper_Limit DECIMAL(5,2),
+
+    -- Infant Mortality Rate (IMR)
+    ZZ_Infant_Mortality_Rate_Total_Lower_Limit DECIMAL(5,2),
+    ZZ_Infant_Mortality_Rate_Total_Upper_Limit DECIMAL(5,2),
+    ZZ_Infant_Mortality_Rate_Rural_Lower_Limit DECIMAL(5,2),
+    ZZ_Infant_Mortality_Rate_Rural_Upper_Limit DECIMAL(5,2),
+    ZZ_Infant_Mortality_Rate_Urban_Lower_Limit DECIMAL(5,2),
+    ZZ_Infant_Mortality_Rate_Urban_Upper_Limit DECIMAL(5,2),
+
+    -- Under-Five Mortality Rate (U5MR)
+    ZZ_Under_Five_Mortality_Rate_U5MR_Total_Lower_Limit DECIMAL(5,2),
+    ZZ_Under_Five_Mortality_Rate_U5MR_Total_Upper_Limit DECIMAL(5,2),
+    ZZ_Under_Five_Mortality_Rate_U5MR_Rural_Lower_Limit DECIMAL(5,2),
+    ZZ_Under_Five_Mortality_Rate_U5MR_Rural_Upper_Limit DECIMAL(5,2),
+    ZZ_Under_Five_Mortality_Rate_U5MR_Urban_Lower_Limit DECIMAL(5,2),
+    ZZ_Under_Five_Mortality_Rate_U5MR_Urban_Upper_Limit DECIMAL(5,2),
+
+    -- Sex Ratio at Birth
+    ZZ_Sex_Ratio_At_Birth_Total_Lower_Limit DECIMAL(5,2),
+    ZZ_Sex_Ratio_At_Birth_Total_Upper_Limit DECIMAL(5,2),
+    ZZ_Sex_Ratio_At_Birth_Rural_Lower_Limit DECIMAL(5,2),
+    ZZ_Sex_Ratio_At_Birth_Rural_Upper_Limit DECIMAL(5,2),
+    ZZ_Sex_Ratio_At_Birth_Urban_Lower_Limit DECIMAL(5,2),
+    ZZ_Sex_Ratio_At_Birth_Urban_Upper_Limit DECIMAL(5,2),
+
+    PRIMARY KEY (State_Name, State_District_Name)
+);
+
+CREATE TABLE Vital_Stats_State_CI (
+    State_Name VARCHAR(100) PRIMARY KEY,
+
+    -- Crude Birth Rate (CBR)
+    ZZ_Crude_Birth_Rate_Total_Lower_Limit DECIMAL(5,2),
+    ZZ_Crude_Birth_Rate_Total_Upper_Limit DECIMAL(5,2),
+    ZZ_Crude_Birth_Rate_Rural_Lower_Limit DECIMAL(5,2),
+    ZZ_Crude_Birth_Rate_Rural_Upper_Limit DECIMAL(5,2),
+    ZZ_Crude_Birth_Rate_Urban_Lower_Limit DECIMAL(5,2),
+    ZZ_Crude_Birth_Rate_Urban_Upper_Limit DECIMAL(5,2),
+
+    -- Crude Death Rate (CDR)
+    ZZ_Crude_Death_Rate_Total_Lower_Limit DECIMAL(5,2),
+    ZZ_Crude_Death_Rate_Total_Upper_Limit DECIMAL(5,2),
+    ZZ_Crude_Death_Rate_Rural_Lower_Limit DECIMAL(5,2),
+    ZZ_Crude_Death_Rate_Rural_Upper_Limit DECIMAL(5,2),
+    ZZ_Crude_Death_Rate_Urban_Lower_Limit DECIMAL(5,2),
+    ZZ_Crude_Death_Rate_Urban_Upper_Limit DECIMAL(5,2),
+
+    -- Infant Mortality Rate (IMR)
+    ZZ_Infant_Mortality_Rate_Total_Lower_Limit DECIMAL(5,2),
+    ZZ_Infant_Mortality_Rate_Total_Upper_Limit DECIMAL(5,2),
+    ZZ_Infant_Mortality_Rate_Rural_Lower_Limit DECIMAL(5,2),
+    ZZ_Infant_Mortality_Rate_Rural_Upper_Limit DECIMAL(5,2),
+    ZZ_Infant_Mortality_Rate_Urban_Lower_Limit DECIMAL(5,2),
+    ZZ_Infant_Mortality_Rate_Urban_Upper_Limit DECIMAL(5,2),
+
+    -- Under-Five Mortality Rate (U5MR)
+    ZZ_Under_Five_Mortality_Rate_U5MR_Total_Lower_Limit DECIMAL(5,2),
+    ZZ_Under_Five_Mortality_Rate_U5MR_Total_Upper_Limit DECIMAL(5,2),
+    ZZ_Under_Five_Mortality_Rate_U5MR_Rural_Lower_Limit DECIMAL(5,2),
+    ZZ_Under_Five_Mortality_Rate_U5MR_Rural_Upper_Limit DECIMAL(5,2),
+    ZZ_Under_Five_Mortality_Rate_U5MR_Urban_Lower_Limit DECIMAL(5,2),
+    ZZ_Under_Five_Mortality_Rate_U5MR_Urban_Upper_Limit DECIMAL(5,2),
+
+    -- Sex Ratio at Birth
+    ZZ_Sex_Ratio_At_Birth_Total_Lower_Limit DECIMAL(5,2),
+    ZZ_Sex_Ratio_At_Birth_Total_Upper_Limit DECIMAL(5,2),
+    ZZ_Sex_Ratio_At_Birth_Rural_Lower_Limit DECIMAL(5,2),
+    ZZ_Sex_Ratio_At_Birth_Rural_Upper_Limit DECIMAL(5,2),
+    ZZ_Sex_Ratio_At_Birth_Urban_Lower_Limit DECIMAL(5,2),
+    ZZ_Sex_Ratio_At_Birth_Urban_Upper_Limit DECIMAL(5,2)
+);
+
+
 
   
 
