@@ -1,0 +1,186 @@
+create table AA_particulars_state(
+     State_Name Varchar(50) NOT NULL,
+     State_District_Name Varchar(50) NOT NULL,
+
+     AA_Sample_Units_Total INT,
+     AA_Sample_Units_Rural INT,
+     AA_Sample_Units_Urban INT,
+     AA_Households_Total INT,
+     AA_Households_Rural INT,
+     AA_Households_Urban INT,
+     AA_Population_Total INT,
+     AA_Population_Rural INT,
+     AA_Population_Urban INT,
+     AA_Ever_Married_Women_Aged_15_49_Years_Total INT,
+     AA_Ever_Married_Women_Aged_15_49_Years_Rural INT,
+     AA_Ever_Married_Women_Aged_15_49_Years_Urban INT,
+     AA_Currently_Married_Women_Aged_15_49_Years_Total INT,
+     AA_Currently_Married_Women_Aged_15_49_Years_Rural  INT,
+     AA_Currently_Married_Women_Aged_15_49_Years_Urban  INT,
+     AA_Children_12_23_Months_Total INT,
+     AA_Children_12_23_Months_Rural INT,
+     AA_Children_12_23_Months_Urban INT);
+
+Create table AA_particular_state(
+    State_Name Varchar(50) NOT NULL,
+    AA_sample_Units INT,
+    AA_Sample_Units_Rural INT,
+    AA_Sample_Units_Urban INT,
+    AA_Households_Total INT,
+    AA_Households_Rural INT,
+    AA_Households_Urban INT,
+    AA_Population_Total INT,
+    AA_Population_Rural INT,
+    AA_Population_Urban INT,
+    AA_Ever_Married_Women_Aged_15_49_Years_Total INT,
+    AA_Ever_Married_Women_Aged_15_49_Years_Rural INT,
+    AA_Ever_Married_Women_Aged_15_49_Years_Urban INT,
+    AA_Currently_Married_Women_Aged_15_49_Years_Total INT,
+    AA_Currently_Married_Women_Aged_15_49_Years_Rural INT,
+    AA_Currently_Married_Women_Aged_15_49_Years_Urban INT,
+    AA_Children_12_23_Months_Total INT,
+    AA_Children_12_23_Months_Rural INT,
+    AA_Children_12_23_Months_Urban INT);
+
+Create BB_Households_characterisics_district(
+   State_Name Varchar(50) NOT NULL,
+   State_District_Name Varchar(50) NOT NULL,
+   BB_Average_Household_Size_Sc_Total  INT, 
+   BB_Average_Household_Size_Sc_Rural  INT,
+   BB_Average_Household_Size_Sc_Urban  INT,
+   BB_Average_Household_Size_St_Total  INT,
+   BB_Average_Household_Size_St_Rural  INT,
+   BB_Average_Household_Size_St_Urban  INT,
+   BB_Average_Household_Size_All_Total  INT,
+   BB_Average_Household_Size_All_Rural  INT,
+   BB_Average_Household_Size_All_Urban  INT,
+   BB_Population_Below_Age_15_Years_Total  INT,
+   BB_Population_Below_Age_15_Years_Rural   INT,
+   BB_Population_Below_Age_15_Years_Urban   INT,
+   BB_Dependency_Ratio_Total  INT,
+   BB_Dependency_Ratio_Rural INT,
+   BB_Dependency_Ratio_Urban INT,
+   BB_Currently_Married_Illiterate_Women_Aged_15_49_Years_Total INT,
+   BB_Currently_Married_Illiterate_Women_Aged_15_49_Years_Rural  INT,
+   BB_Currently_Married_Illiterate_Women_Aged_15_49_Years_Urban) INT);
+
+Create table BB_Households_characteristics_state(
+   State_Name Varchar(50) NOT NULL,
+   BB_Average_Household_Size_Sc_Total INT,
+   BB_Average_Household_Size_Sc_Rural INT,
+   BB_Average_Household_Size_Sc_Urban INT,
+   BB_Average_Household_Size_St_Total  INT,
+   BB_Average_Household_Size_St_Rural INT,
+   BB_Average_Household_Size_St_Urban INT,
+   BB_Average_Household_Size_All_Total INT,
+   BB_Average_Household_Size_All_Rural INT,
+   BB_Average_Household_Size_All_Urban INT,
+   BB_Population_Below_Age_15_Years_Total INT,
+   BB_Population_Below_Age_15_Years_Rural INT,
+   BB_Population_Below_Age_15_Years_Urban INT,
+   BB_Dependency_Ratio_Total INT,
+   BB_Dependency_Ratio_Rural INT,
+   BB_Dependency_Ratio_Urban INT,
+   BB_Currently_Married_Illiterate_Women_Aged_15_49_Years_Total INT,
+   BB_Currently_Married_Illiterate_Women_Aged_15_49_Years_Rural INT,
+   BB_Currently_Married_Illiterate_Women_Aged_15_49_Years_Urban INT);
+
+Create table CC_Sex_Ratio_District(
+   State_Name Varchar(50) NOT NULL(
+   State_District_Name Varchar(50) NOT NULL(
+   CC_Sex_Ratio_At_Birth_Total INT,
+   CC_Sex_Ratio_At_Birth_Rural INT,
+   CC_Sex_Ratio_At_Birth_Urban INT,
+   CC_Sex_Ratio_0_4_Years_Total INT,
+   CC_Sex_Ratio_0_4_Years_Rural INT,
+   CC_Sex_Ratio_0_4_Years_Urban INT,
+   CC_Sex_Ratio_All_Ages_Total INT,
+   CC_Sex_Ratio_All_Ages_Rural INT,
+   CC_Sex_Ratio_All_Ages_Urban INT);
+
+Create table_CC_Sex_Ratio_State(
+  State_Name Varchar(50) NOT NULL,
+  CC_Sex_Ratio_At_Birth_Total INT,
+  CC_Sex_Ratio_At_Birth_Rural INT,
+  CC_Sex_Ratio_At_Birth_Urban INT,
+  CC_Sex_Ratio_0_4_Years_Total INT,
+  CC_Sex_Ratio_0_4_Years_Rural INT,
+  CC_Sex_Ratio_0_4_Years_Urban INT,
+  CC_Sex_Ratio_All_Ages_Total INT,
+  CC_Sex_Ratio_All_Ages_Rural INT,
+  CC_Sex_Ratio_All_Ages_Urban INT);
+
+Create table DD_Effective_Literacy_Rate_District(
+  State_Name Varchar(50) NOT NULL,
+  State_District_Name Varchar(50) NOT NULL,
+  DD_Person_Total INT,
+  DD_Person_Rural INT,
+  DD_Person_Urban INT,
+  DD_Male_Total INT,
+  DD_Male_Rural INT,
+  DD_Male_Urban INT,
+  DD_Female_Total INT,
+  DD_Female_Rural INT,
+  DD_Female_Urban INT);
+
+Create table DD_Effective_literacy_rate_states(
+  State_Name Varchar(50) NOT NULL,
+  DD_Person_Total INT,
+  DD_Person_Rural INT,
+  DD_Person_Urban INT,
+  DD_Male_Total INT,
+  DD_Male_Rural INT,
+  DD_Male_Urban INT,
+  DD_Female_Total INT,
+  DD_Female_Rural INT,
+  DD_Female_Urban INT);
+
+create table EE_Marriage_district(
+  State_Name Varchar(50) NOT NULL,
+  State_District_Name Varchar(50) NOT NULL,
+  EE_Marriages_Among_Females_Below_Legal_Age_18_Years_Total INT,
+  EE_Marriages_Among_Females_Below_Legal_Age_18_Years_Rural INT,
+  EE_Marriages_Among_Females_Below_Legal_Age_18_Years_Urban INT,
+  EE_Marriages_Among_Males_Below_Legal_Age_21_Years_Total INT,
+  EE_Marriages_Among_Males_Below_Legal_Age_21_Years_Rural INT,
+  EE_Marriages_Among_Males_Below_Legal_Age_21_Years_Urban INT,
+  EE_Currently_Married_Women_Aged_20_24_Years_Married_Before_Legal_Age_18_Years_Total INT,
+  EE_Currently_Married_Women_Aged_20_24_Years_Married_Before_Legal_Age_18_Years_Rural INT,
+  EE_Currently_Married_Women_Aged_20_24_Years_Married_Before_Legal_Age_18_Years_Urban INT,
+  EE_Currently_Married_Men_Aged_25_29_Years_Married_Before_Legal_Age_21_Years_Total INT,
+  EE_Currently_Married_Men_Aged_25_29_Years_Married_Before_Legal_Age_21_Years_Rural INT,
+  EE_Currently_Married_Men_Aged_25_29_Years_Married_Before_Legal_Age_21_Years_Urban INT,
+  EE_Mean_Age_At_Marriage_Male_Total INT,
+  EE_Mean_Age_At_Marriage_Male_Rural INT,
+  EE_Mean_Age_At_Marriage_Male_Urban INT,
+  EE_Mean_Age_At_Marriage_Female_Total INT,
+  EE_Mean_Age_At_Marriage_Female_Rural INT,
+  EE_Mean_Age_At_Marriage_Female_Urban INT);
+
+Create table EE_Marriage_States(
+ State_Name Varchar(50) NOT NULL,
+ EE_Marriages_Among_Females_Below_Legal_Age_18_Years_Total INT,
+ EE_Marriages_Among_Females_Below_Legal_Age_18_Years_Rural INT,
+ EE_Marriages_Among_Females_Below_Legal_Age_18_Years_Urban INT,
+ EE_Marriages_Among_Males_Below_Legal_Age_21_Years_Total INT,
+ EE_Marriages_Among_Males_Below_Legal_Age_21_Years_Rural INT,
+ EE_Marriages_Among_Males_Below_Legal_Age_21_Years_Urban INT,
+ EE_Currently_Married_Women_Aged_20_24_Years_Married_Before_Legal_Age_18_Years_Total INT,
+ EE_Currently_Married_Men_Aged_25_29_Years_Married_Before_Legal_Age_21_Years_Total INT,
+EE_Currently_Married_Men_Aged_25_29_Years_Married_Before_Legal_Age_21_Years_Rural INT,
+EE_Currently_Married_Men_Aged_25_29_Years_Married_Before_Legal_Age_21_Years_Urban INT,
+EE_Mean_Age_At_Marriage_Male_Total INT,
+EE_Mean_Age_At_Marriage_Male_Rural INT,
+EE_Mean_Age_At_Marriage_Male_Urban INT,
+EE_Mean_Age_At_Marriage_Female_Total INT,
+EE_Mean_Age_At_Marriage_Female_Rural INT,
+EE_Mean_Age_At_Marriage_Female_Urban INT);
+
+
+
+  
+
+  
+
+  
+   
